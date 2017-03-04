@@ -9,8 +9,8 @@
 <body>
   <header class="main-header">
     <nav class="nav">
-      <div class="nav__link navigation__link_activate">
-        <img src="class=" index.html class="navn__logo" alt="Седона">
+      <div class="nav__link nav__link--active">
+        <img src="class=" index.html class="nav__logo" alt="Седона">
       </div>
       <a href="index.html " class="nav__link">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
@@ -28,83 +28,68 @@
     <form class="review " method="post" action="https://echo.htmlacademy.ru">
       <div class="review-part">
         <h2 class="review-part__title">Представьтесь:</h2>
-
         <label for="name " class="review-part__label">Имя*:</label>
         <input type="text" class="review-part__input" id="name" name="name" value="Петр">
-
         <label for="surname" class="review-part__label">Фамилия*:</label>
         <input type="text" class="review-part__input" id="surname " name="surname" value="Иванов">
-
         <label for="patronymic" class="review-part__label">Отчество:</label>
         <input type="text" class="review-part__input" id="patronymic" name="patronymic" value="Александрович">
-
       </div>
 
       <div class="review-part">
         <h2 class="review-part__title">Контактная информация:</h2>
-
         <label for="phone" class="review-part__label">Контактный телефон*:</label>
         <input type="text" class="review-part__input" id="phone " name="phone" value="Введите телефон">
-
         <label for="email" class="review-part__label">Электоронная почта*:</label>
         <input type="text" class="review-part__input" id="email" name="email" value="Введите e-mail">
       </div>
 
       <div class="review-part ">
         <h2 class="review-part__title">Ваше Общее впечатление:</h2>
-
         <label for="positive">Скорее положительное</label>
         <input id="positive" class="review-part__input" type="radio" name="positive">
-
         <label for="negative">Скорее отрицательное</label>
         <input id="negative" class="review-part__input" type="radio" name="negative">
-
         <label for="no-answer">Затрудняюсь ответить</label>
         <input id="no-answer" class="review-part__input" type="radio" name="no-answer">
       </div>
 
       <div class="review-part">
         <h2 class="review-part__title">Посещенные достопримечательности:</h2>
-
         <input id="brige" type="checkbox" class="review-part__input" name="brige" checked>
         <label for="brige">Мост дьявола</label>
-
         <input id="park" type="checkbox" class="review-part__input" name="park" checked>
         <label for="park">Слайд-парк</label>
-
         <input id="mountain" type="checkbox" class="review-part__input" name="mountain">
         <label for="mountain">Гора-колокол</label>
-
         <input id="red-rocks" type="checkbox" class="review-part__input" name="red-rocks" checked>
         <label for="red-rocks">Красные скалы</label>
-
       </div>
 
       <div class="review-part">
         <h2 class="review-part__title">Опишите свои эмоции:</h2>
-
-        <textarea id="emotions" name="text" class="review-part__textarea" required> Опишите подробно все свои восторги</textarea>
-
+        <textarea id="emotions" name="text" class="review-part__textarea" required>Опишите подробно все свои восторги</textarea>
       </div>
 
-      <button type="submit" class="review__btn  btn--bg-blue">Отправить отзыв</button>
+      <div class="btn">
+        <button type="submit" class="btn__review">Отправить отзыв</button>
+      </div>
     </form>
   </main>
 
   <footer class="footer">
     <span class="footer__hashtag">#Visitsedona</span>
-    <section class="social ">
+    <section class="social">
       <a class="social__btn  social__btn--tw" href="# "></a>
       <a class="social__btn  social__btn--fb" href="# "></a>
       <a class="social__btn  social__btn--yb" href="# "></a>
     </section>
+
     <section class="copyright">
       <p class="copyright__text">Разработано</p>
       <a class="copyright__link" href="https://htmlacademy.ru"><img class="copyright__image" src="#" width="" height="" alt="Седона"></a>
     </section>
   </footer>
-
-  </div>
 </body>
 
 </html>
