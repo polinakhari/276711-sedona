@@ -1,0 +1,28 @@
+.reasons-item {
+  background-color: $reasons-color;
+  padding: 30px 20px;
+
+  .reasons-item__title {
+    @include font-title();
+    padding-bottom: 21px;
+  }
+
+  .reasons-item__description,
+  .reasons-item__number {
+    @include font-desc(1.4rem,2.1rem);
+  }
+
+  .reasons-item__description {
+    padding-top: 26px;
+  }
+}
+
+.reasons-item--bg-blue {
+  background-color: $accent-color;
+
+  .reasons-item__description,
+  .reasons-item__number,
+  .reasons-item__title {
+    color: $primary-color;
+  }
+}

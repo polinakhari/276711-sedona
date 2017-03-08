@@ -1,0 +1,8 @@
+.copyright {
+  padding-top: 100px;
+
+  .copyright__text {
+    @include font-title(1.4rem,2.6rem);
+    font-weight: 400;
+  }
+}

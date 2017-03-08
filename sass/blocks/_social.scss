@@ -1,0 +1,26 @@
+.social {
+  .social__btn {
+    &:before {
+      content: "";
+      position: absolute;
+      width: 46px;
+      height: 48px;
+      background-position: center;
+    }
+  }
+
+  .social__btn--tw:before {
+    background: $accent-color url("../img/icon-twitter.svg") 15px 16px no-repeat;
+    left: 630px;
+  }
+
+  .social__btn--fb:before {
+    background: $accent-color url("../img/icon-facebook.svg") 19px 14px no-repeat;
+    left: 680px;
+  }
+
+  .social__btn--yb:before {
+    background: $accent-color url("../img/icon-youtube.svg") 13px 17px no-repeat;
+    left: 729px;
+  }
+}

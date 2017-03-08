@@ -1,0 +1,10 @@
+.btn {
+  .btn__review,
+  .btn__search {
+    @include font-title(2.1rem,2.6rem);
+    text-decoration: none;
+    color: $primary-color;
+    padding: 16px 50px;
+    background-color: $accent-color;
+  }
+}
