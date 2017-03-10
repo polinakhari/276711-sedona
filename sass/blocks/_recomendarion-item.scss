@@ -1,6 +1,6 @@
 .recomendarion-item {
-  padding-left: 70px;
   padding-top: 40px;
+  box-sizing: border-box;
 
   &:nth-child(3) {
     padding-bottom: 60px;
@@ -15,32 +15,88 @@
     background: url("../img/icon-house.svg") no-repeat;
     width: 39px;
     height: 37px;
-    left: 20px;
+    left: 8px;
+    background-size: contain;
   }
 
   &:nth-child(2):before {
     background: url("../img/icon-gift.svg") no-repeat;
     width: 32px;
     height: 38px;
-    left: 20px;
+    left: 8px;
+    background-size: contain;
   }
 
   &:nth-child(3):before {
     background: url("../img/icon-burger.svg") no-repeat;
     width: 40px;
     height: 35px;
-    left: 20px;
+    left: 8px;
+    background-size: contain;
+  }
+}
+
+.recomendarion-item__title {
+  padding-left: 50px;
+  @include font-title();
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.recomendarion-item__description {
+  @include font-desc(1.4rem,2.1rem);
+  padding-left: 50px;
+  text-align: left;
+}
+@media (min-width:768px) {
+  .recomendarion-item {
+    width: 33.3333%;
+    padding: 45px 60px;
   }
 
+  .recomendarion-item__description,
   .recomendarion-item__title {
-    position: relative;
-    @include font-title();
-    text-align: left;
-    padding-bottom: 20px;
+    padding-left: 0;
+    text-align: center;
   }
 
-  .recomendarion-item__description {
-    @include font-desc(1.4rem,2.1rem);
-    text-align: left;
+  .recomendarion-item {
+    &:first-child:before {
+      left: 108px;
+      top: 20px;
+    }
+
+    &:nth-child(2):before {
+      left: 370px;
+      top: 20px;
+    }
+
+    &:nth-child(3):before {
+      left: 620px;
+      top: 20px;
+    }
+  }
+}
+@media (min-width:1200px) {
+  .recomendarion-item {
+    width: 33.3333%;
+    padding: 55px 60px;
+  }
+
+  .recomendarion-item {
+    &:first-child:before {
+      left: 179px;
+      top: 20px;
+    }
+
+    &:nth-child(2):before {
+      left: 583px;
+      top: 20px;
+    }
+
+    &:nth-child(3):before {
+      left: 980px;
+      top: 20px;
+    }
   }
 }

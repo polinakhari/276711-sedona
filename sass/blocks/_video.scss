@@ -1,15 +1,15 @@
-.video {
-  .video__title {
-    @include font-title();
-    padding: 40px 0;
-  }
+.video {}
 
-  .video__description {
-    @include font-desc();
-    padding-bottom: 40px;
-  }
+.video__title {
+  @include font-title();
+  padding: 40px 0;
+}
 
-  .video__image {
-    width: 100%;
-  }
+.video__description {
+  @include font-desc();
+  padding-bottom: 40px;
+}
+
+.video__image {
+  width: 100%;
 }

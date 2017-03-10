@@ -1,26 +1,32 @@
-.social {
-  .social__btn {
-    &:before {
-      content: "";
-      position: absolute;
-      width: 46px;
-      height: 48px;
-      background-position: center;
-    }
-  }
+.social {}
 
-  .social__btn--tw:before {
-    background: $accent-color url("../img/icon-twitter.svg") 15px 16px no-repeat;
-    left: 630px;
-  }
+.social__btn {
+  width: 46px;
+  height: 48px;
+  background-color: $accent-color;
+  display: inline-block;
+  margin-right: 5px;
+  position: relative;
 
-  .social__btn--fb:before {
-    background: $accent-color url("../img/icon-facebook.svg") 19px 14px no-repeat;
-    left: 680px;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 46px;
+    height: 48px;
   }
+}
 
-  .social__btn--yb:before {
-    background: $accent-color url("../img/icon-youtube.svg") 13px 17px no-repeat;
-    left: 729px;
-  }
+.social__btn--tw:before {
+  background: url("../img/icon-twitter.svg") 0 16px no-repeat;
+  left: 15px;
+}
+
+.social__btn--fb:before {
+  background: url("../img/icon-facebook.svg") 0 14px no-repeat;
+  left: 20px;
+}
+
+.social__btn--yb:before {
+  background: url("../img/icon-youtube.svg") 0 17px no-repeat;
+  left: 14px;
 }

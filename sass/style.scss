@@ -1,7 +1,6 @@
 @import "global/_fonts.scss";
 @import "_variables.scss";
 @import "_mixins.scss";
-@import "pages/_index.scss";
 @import "blocks/_nav.scss";
 @import "blocks/_preview.scss";
 @import "blocks/_reasons.scss";
@@ -18,3 +17,32 @@
 @import "blocks/_social.scss";
 @import "blocks/_review.scss";
 @import "blocks/_review-part.scss";
+@import "normalize";
+.index_wrapper {
+  width: 320px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  width: calc(100% - 40px);
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .index_wrapper {
+    width: 768px;
+
+  }
+
+  .wrapper {
+    width: calc(100% - 154px * 2);
+  }
+}
+@media (min-width: 1200px) {
+  .index_wrapper {
+    width: 1200px;
+  }
+
+  .wrapper {
+    width: calc(100% - 370px * 2);
+  }
+}

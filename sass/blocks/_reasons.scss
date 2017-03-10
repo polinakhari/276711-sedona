@@ -1,8 +1,18 @@
 .reasons {
   color: $primary-color;
   text-align: center;
+}
+@media (min-width:768px) {
+  .reasons {
+    display: flex;
+    flex-direction: row;
+  }
 
   .reasons__image {
-    width: 100%;
+    width: 66.6667%;
+  }
+
+  .reasons__image--one {
+    order: -1;
   }
 }

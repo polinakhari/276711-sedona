@@ -1,21 +1,21 @@
 .review-part {
   padding: 24px 20px;
+}
 
-  .review-part__title {
-    @include font-title();
-  }
+.review-part__title {
+  @include font-title();
+}
 
-  .review-part__input {}
+.review-part__input {}
 
-  .review-part__label {
-    @include font-desc();
-    padding-right: 15px;
-  }
+.review-part__label {
+  @include font-desc();
+  padding-right: 15px;
+}
 
-  .review-part__label--small {
-    font-size: 18px;
-    text-transform: none;
-    font-weight: 700;
-    color: $title-color;
-  }
+.review-part__label--small {
+  font-size: 18px;
+  text-transform: none;
+  font-weight: 700;
+  color: $title-color;
 }
