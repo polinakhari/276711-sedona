@@ -1,6 +1,12 @@
+button{
+border: none;
+}
 .btn {
   background-color: $accent-color;
   height: 58px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
 }
 
 .btn__review,
