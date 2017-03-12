@@ -1,10 +1,11 @@
 .reasons {
   color: $primary-color;
   text-align: center;
+background-color: $reasons-color;
 }
 
 .reasons .wrapper {
-  background-color: $reasons-color;
+
   padding: 30px 0;
   box-sizing: border-box;
 }
@@ -23,15 +24,15 @@
   padding-top: 26px;
 }
 
-.reasons .wrapper--bg-blue {
+.reasons--bg-blue {
   background-color: $accent-color;
-
-  .reasons__description,
-  .reasons__number,
-  .reasons__title {
+}
+  .reasons__description--bg-blue,
+  .reasons__number--bg-blue,
+  .reasons__title--bg-blue {
     color: $primary-color;
   }
-}
+
 @media (min-width:768px) {
   .reasons {
     display: flex;
