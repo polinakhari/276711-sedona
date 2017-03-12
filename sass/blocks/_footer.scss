@@ -1,0 +1,14 @@
+.footer {
+  @include font-title();
+}
+
+.footer__hashtag {
+  @include font-title(2.1rem);
+  padding-bottom: 40px;
+}
+@media (min-width:768px) {
+  .footer {
+    display: flex;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,79 @@
+.recomendarion-item {
+  padding-top: 40px;
+  box-sizing: border-box;
+position: relative;
+  &:nth-child(3) {
+    padding-bottom: 60px;
+  }
+
+  &:before {
+    content: " ";
+    position: absolute;
+background-size: contain;
+width: 40px;
+height: 40px;
+  }
+
+  &:first-child:before {
+    background: url("../img/icon-house.svg") no-repeat;
+
+    left: 8px;
+background-size: contain;
+  }
+
+  &:nth-child(2):before {
+    background: url("../img/icon-gift.svg") no-repeat;
+
+    left: 8px;
+background-size: contain;
+  }
+
+  &:nth-child(3):before {
+    background: url("../img/icon-burger.svg") no-repeat;
+
+    left: 8px;
+background-size: contain;
+    }
+}
+
+.recomendarion-item__title {
+  padding-left: 50px;
+  @include font-title();
+  text-align: left;
+  padding-bottom: 20px;
+}
+
+.recomendarion-item__description {
+  @include font-desc(1.4rem,2.1rem);
+  padding-left: 50px;
+  text-align: left;
+}
+@media (min-width:768px) {
+  .recomendarion-item {
+    width: 33.3333%;
+    padding: 45px 60px;
+  }
+
+  .recomendarion-item__description,
+  .recomendarion-item__title {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .recomendarion-item:before{
+  position: relative;
+margin: 0 auto;
+display: block;
+width: 80px;
+height: 80px;
+  background-position: center bottom;
+}
+
+}
+@media (min-width:1200px) {
+  .recomendarion-item {
+    width: 33.3333%;
+    padding: 55px 60px;
+  }
+
+}

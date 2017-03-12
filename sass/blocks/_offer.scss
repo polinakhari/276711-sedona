@@ -1,0 +1,13 @@
+.offer {
+  text-align: center;
+  padding: 34px 0 50px;
+}
+
+.offer__title {
+  @include font-title(2.1rem,26px);
+}
+
+.offer__description {
+  @include font-desc();
+  padding: 32px 0 42px;
+}

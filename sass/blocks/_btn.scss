@@ -1,0 +1,19 @@
+button{
+border: none;
+}
+.btn {
+  background-color: $accent-color;
+  height: 58px;
+margin-bottom: 30px;
+display: flex;
+justify-content: center;
+}
+
+.btn__review,
+.btn__search {
+  @include font-title(2.1rem,5.6rem);
+  vertical-align: middle;
+  text-decoration: none;
+  color: $primary-color;
+  background-color: $accent-color;
+}

@@ -1,0 +1,26 @@
+.video {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.video__title {
+  @include font-title();
+  padding: 40px 0;
+}
+
+.video__description {
+  @include font-desc();
+  padding-bottom: 40px;
+}
+
+.video__image {
+  width: 100%;
+}
+@media (min-width:1200px) {
+  .video__image {
+    width: 66.66666%;
+
+  }
+}

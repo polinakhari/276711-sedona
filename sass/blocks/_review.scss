@@ -1,0 +1,11 @@
+.review{
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+@media (min-width:768px) {
+.review{
+  flex-direction: row;
+justify-content: flex-start;
+}
+}
