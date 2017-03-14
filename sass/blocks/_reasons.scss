@@ -4,7 +4,7 @@
 background-color: $reasons-color;
 }
 
-.reasons .wrapper {
+.reasons__item {
 
   padding: 30px 0;
   box-sizing: border-box;
@@ -38,7 +38,7 @@ background-color: $reasons-color;
     display: flex;
     flex-direction: row;
   }
-  .reasons .wrapper {
+  .reasons__item {
     padding: 0 45px;
     width: 33.3333%;
   }
@@ -52,7 +52,7 @@ background-color: $reasons-color;
   }
 }
 @media (min-width:1200px) {
-  .reasons .wrapper {
+  .reasons__item {
     padding: 0 70px;
   }
 }
