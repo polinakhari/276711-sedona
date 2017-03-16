@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-  width: calc(100% - 40px);
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -19,11 +19,9 @@ margin: 0 auto;
   }
 
   .wrapper {
-    width: calc(100% - 154px * 2);
+    padding: 0 60px;
   }
-  .photo-wrapper{
-  width: calc(100% - 60px * 2);
-  }
+
 }
 @media (min-width: 1200px) {
   .main_wrapper {
@@ -31,10 +29,7 @@ margin: 0 auto;
   }
 
   .wrapper {
-    width: calc(100% - 370px * 2);
-  }
-  .photo-wrapper{
-  width: 100%;
+    padding: 0 120px;
   }
 }
 input{
