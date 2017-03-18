@@ -20,49 +20,52 @@
   height: 56px;
   box-shadow: none;
 }
+.nav__toggle{
+  display: block;
+font-size: 0;
+line-height: 0;
+border: 0;
+padding: 0;
 
-.nav__toggle:after{
-content: " ";
-position: absolute;
-display: block;
-background-image: url("../img/icon-cross.svg");
-top: -200px;
-  right: 20px;
-  width: 23px;
-  height: 22px;
 }
+
 @media (max-width: 767px) {
+  .nav__toggle::after {
+    content: " ";
+    position: absolute;
+      background-image: url("../img/icon-menu.svg");
+    top: 16px;
+      right: 20px;
+      width: 23px;
+      height: 22px;
+z-index: 2;
+  }
+.nav--closed .nav__toggle::after {
+background-image: url("../img/icon-menu.svg");
+}
+.nav--active .nav__toggle::after {
+background-image: url("../img/icon-cross.svg");
+}
   .nav--closed .nav__link:not(.nav__link--active) {
     display: none;
   }
 
-  .nav__link--active .nav__link {
+  .nav--active .nav__link {
     display: block;
   }
-  .nav__link--active .nav__toggle:after {
-    background-image: url("../img/icon-cross.svg");
-    top: -200px;
-
-  }
-.nav__link--close .nav__toggle:after{
-background-image: url("../img/icon-menu.svg");
-top: 20px;
-
-}
 
   .nav--nojs {
     .nav__link {
       display: block;
     }
 
-    .nav__link--close,
-    .nav__toggle {
-      &:after {
+
+    .nav__toggle:after {
         display: none;
       }
     }
   }
-}
+
 @media (min-width: 768px) {
   .nav {
     flex-direction: row;

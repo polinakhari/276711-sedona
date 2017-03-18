@@ -12,11 +12,11 @@
 <body class="main_wrapper">
 
   <header class="main-header">
-    <nav class="nav nav--nojs">
+    <nav class="nav nav--nojs nav--closed">
+<button class="nav__toggle" type="button">Меню</button>
       <div class="nav__link nav__link--active">
         <img src="img/logo-sedona-mobile.svg" width="102" height="83" class="nav__logo" alt="Седона">
-        <button class="nav__toggle" type="button"></button>
-      </div>
+              </div>
       <a href="#" class="nav__link nav__link--close">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
       <a href="form.html" class="nav__link">Форма отзыва</a>
@@ -30,12 +30,12 @@
       <img src="img/text-sedona-index.svg" width="282" height="214" class="preview__image" alt="sedona-text">
     </div>
 
-    <div class="wrapper">
-      <div class="preview-text">
+
+      <div class="preview-text  wrapper">
         <h1 class="preview-text__main-title">Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
         <p class="preview-text__main-description">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </div>
-    </div>
+
 
     <div class="reasons  reasons--bg-blue">
 
@@ -116,23 +116,23 @@
         </div>
       </div>
     </div>
-    <div class="wrapper">
-      <div class="offer">
+
+      <div class="offer  wrapper">
 
         <p class="offer__title">Заинтересовались?</p>
         <p class="offer__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <div class="btn">
           <a href="form.html" class="btn__search">Найти гостиницу</a>
         </div>
-      </div>
+
     </div>
     <div class="map">
       <img src="img/bg-map-mobile@1x.jpg" width="320" height="350" class="map__image" alt="map">
       <script type="text/javascript" charset="utf-8" async src="#"></script>
     </div>
   </main>
-  <div class="wrapper">
-    <footer class="footer">
+
+    <footer class="footer  wrapper">
 
       <p class="footer__hashtag">#Visitsedona</p>
       <section class="social">
@@ -147,25 +147,8 @@
       </section>
 
     </footer>
-  </div>
 
-  <script>
-    var navMain = document.querySelector('.nav');
-    var navToggle = document.querySelector('.nav__toggle');
-
-    navMain.classList.remove('nav--nojs');
-
-    navToggle.addEventListener('click', function() {
-      if (navMain.classList.contains('nav--closed')) {
-        navMain.classList.remove('nav--closed');
-        navMain.classList.add('nav--active');
-      } else {
-        navMain.classList.add('nav--closed');
-        navMain.classList.remove('nav--active');
-      }
-    });
-  </script>
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
