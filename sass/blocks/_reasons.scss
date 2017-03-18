@@ -19,13 +19,14 @@ justify-content: center;
 
 
 .reasons__title {
-  @include font-title();
+  @include font-title(2.1rem);
   padding-bottom: 21px;
 }
 
 .reasons__description,
 .reasons__number {
   @include font-desc(1.4rem,2.1rem);
+font-weight: 400;
 }
 
 .reasons__description {
