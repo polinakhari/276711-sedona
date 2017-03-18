@@ -23,7 +23,7 @@
 
 .nav__toggle:after{
 content: " ";
-position: relative;
+position: absolute;
 display: block;
 background-image: url("../img/icon-cross.svg");
 top: -200px;
