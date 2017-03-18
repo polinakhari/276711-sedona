@@ -2,13 +2,21 @@
   color: $primary-color;
   text-align: center;
 background-color: $reasons-color;
+box-sizing: border-box;
 }
 
-.reasons .wrapper {
-
-  padding: 30px 0;
+.reasons__item {
   box-sizing: border-box;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
 }
+.reasons__image {
+  width: 100%;
+}
+
 
 .reasons__title {
   @include font-title();
@@ -38,13 +46,20 @@ background-color: $reasons-color;
     display: flex;
     flex-direction: row;
   }
-  .reasons .wrapper {
-    padding: 0 45px;
-    width: 33.3333%;
+  .reasons__item {
+display: flex;
+flex-direction: row;
+    width: 100%;
   }
+.reasons__text{
+width: 256px;
+box-sizing: border-box;
+}
 
   .reasons__image {
-    width: 66.6667%;
+align-items: flex-end;
+width: 512px;
+box-sizing: border-box;
   }
 
   .reasons__image--one {
@@ -52,7 +67,11 @@ background-color: $reasons-color;
   }
 }
 @media (min-width:1200px) {
-  .reasons .wrapper {
-    padding: 0 70px;
+  .reasons__text{
+  width: 400px;
   }
+  .reasons__image {
+    width: 800px;
+  }
+
 }
