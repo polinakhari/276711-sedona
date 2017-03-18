@@ -69,14 +69,34 @@ background-image: url("../img/icon-cross.svg");
 @media (min-width: 768px) {
   .nav {
     flex-direction: row;
-    justify-content: space-around;
     background-color: $primary-color;
   }
 
-  .nav__link:nth-child(4),
+
   .nav__link:nth-child(5) {
     order: 2;
+    padding-left: 139px;
+        padding-top: 14px;
   }
+  .nav__link:nth-child(4){
+order: 0;
+padding-left: 162px;
+padding-top: 14px;
+}
+.nav__link:nth-child(3) {
+  padding-left: 90px;
+      padding-top: 14px;
+
+}
+.nav__link:nth-child(6) {
+  padding-left: 138px;
+padding-top: 14px;
+order: 4;
+}
+.nav__link--active{
+  padding-left: 141px;
+
+}
 
   .nav__link {
     box-shadow: none;

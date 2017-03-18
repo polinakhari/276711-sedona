@@ -22,14 +22,15 @@ background-size: contain;
   }
 
   &:nth-child(2):before {
-    background: url("../img/icon-gift.svg") no-repeat;
+background: url("../img/icon-burger.svg") no-repeat;
+
 
     left: 8px;
 background-size: contain;
   }
 
   &:nth-child(3):before {
-    background: url("../img/icon-burger.svg") no-repeat;
+    background: url("../img/icon-gift.svg") no-repeat;
 
     left: 8px;
 background-size: contain;
