@@ -2,6 +2,8 @@
   color: $primary-color;
   text-align: center;
 background-color: $reasons-color;
+box-sizing: border-box;
+
 
 }
 
@@ -13,6 +15,10 @@ align-items: center;
 justify-content: center;
 
 }
+.reasons__image {
+  width: 100%;
+}
+
 
 .reasons__title {
   @include font-title();
@@ -48,13 +54,13 @@ flex-direction: row;
     width: 100%;
   }
 .reasons__text{
-width: 33.3%;
+width: 256px;
 box-sizing: border-box;
 }
 
   .reasons__image {
 align-items: flex-end;
-width: 66.7%;
+width: 512px;
 box-sizing: border-box;
   }
 
@@ -63,8 +69,11 @@ box-sizing: border-box;
   }
 }
 @media (min-width:1200px) {
+  .reasons__text{
+  width: 400px;
+  }
   .reasons__image {
-    width: 66.6667%;
+    width: 800px;
   }
 
 }
