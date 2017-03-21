@@ -1,10 +1,24 @@
 .preview-text__main-title {
-  @include font-title(2.1rem,2.6rem);
-  padding: 30px 0;
+  @include font-title(1.9rem,2.6rem);
+padding-bottom: 13px;
 }
 
 .preview-text__main-description {
   @include font-desc(1.4rem,2.6rem);
   padding-top: 0;
-  padding-bottom: 35px;
+  padding-bottom: 13px;
+}
+@media (min-width:768px) {
+  .preview-text__main-title {
+    padding: 30px 100px 15px;
+  font-size: 2rem;
+  }
+.preview-text__main-description{
+padding-bottom: 37px;
+}
+}
+@media (min-width:1200px) {
+  .preview-text__main-title{
+padding: 30px 280px 15px;
+}
 }

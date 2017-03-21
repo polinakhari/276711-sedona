@@ -7,6 +7,10 @@
   position: relative;
 }
 
+.review-part__container {
+  width: 100%;
+}
+
 .review-part__title {
   @include font-title();
 }
@@ -14,7 +18,8 @@
 .review-part__label {
   @include font-desc();
   text-align: left;
-  width: 30%;
+  display: block;
+  padding-right: 15px;
 }
 
 .review-part:nth-child(3) .review-part__label,
@@ -40,8 +45,8 @@ input[type="text"] {
   font-weight: 700;
   color: $title-color;
   background-color: #f2f2f2;
-  width: 70%;
-flex-grow: 2;
+  width: auto;
+  flex-grow: 1;
 }
 
 .review-part__textarea {
@@ -113,6 +118,11 @@ flex-grow: 2;
   width: 100%;
 }
 @media (min-width:768px) {
+  .review-part__container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   .review-part:nth-child(3) {
     order: -1;
     width: 50%;

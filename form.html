@@ -17,7 +17,7 @@
       </div>
       <a href="index.html" class="nav__link  nav__link--close">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
-      <a href="#" class="nav__link">Форма отзыва</a>
+      <a href="#" class="nav__link active">Форма отзыва</a>
       <a href="https://htmlacademy.ru/" class="nav__link">HTML ACADEMY</a>
     </nav>
   </header>
@@ -36,14 +36,19 @@
       <form class="review" method="post" action="https://echo.htmlacademy.ru">
         <div class="review-part">
           <h2 class="review-part__title">Представьтесь:</h2>
+<div class="review-part__container">
           <label for="men" class="review-part__label">Имя*:</label>
           <input type="text" class="review-part__input" id="men" name="name" value="Петр">
+  </div>
+<div class="review-part__container">
           <label for="sur" class="review-part__label">Фамилия*:</label>
           <input type="text" class="review-part__input" id="sur" name="sur" value="Иванов">
+  </div>
+<div class="review-part__container">
           <label for="patronymic" class="review-part__label">Отчество:</label>
           <input type="text" class="review-part__input" id="patronymic" name="patronymic" value="Александрович">
         </div>
-
+  </div>
         <div class="review-part">
           <h2 class="review-part__title">Контактная информация:</h2>
           <label for="phone-number" class="review-part__label">Контактный телефон*:</label>

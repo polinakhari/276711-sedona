@@ -4,7 +4,7 @@ border: none;
 .btn {
   background-color: $accent-color;
   height: 58px;
-margin-bottom: 30px;
+margin-bottom: 0px;
 display: flex;
 justify-content: center;
 }
@@ -16,4 +16,14 @@ justify-content: center;
   text-decoration: none;
   color: $primary-color;
   background-color: $accent-color;
+}
+.btn:hover,.btn__review:hover,
+.btn__search:hover{
+background-color: $btn-hvr;
+}
+
+.btn:active,.btn__review:active,
+.btn__search:active{
+background-color: $btn-dw;
+color: $btn-dw-tx;
 }
