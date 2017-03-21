@@ -3,15 +3,6 @@
   display: flex;
   flex-direction: column;
 }
-.nav__link:hover{
-background-color: $btn-hvr;
-}
-
-.nav__link:active{
-background-color: $btn-dw;
-color: $btn-dw-tx;
-}
-
 
 .nav__link {
   @include font-title(1.8rem,4rem);
@@ -38,7 +29,14 @@ color: $btn-dw-tx;
   padding: 0;
 }
 @media (max-width: 767px) {
+  .nav__link:hover{
+  background-color: $btn-hvr;
+  }
 
+  .nav__link:active{
+  background-color: $btn-dw;
+  color: $btn-dw-tx;
+  }
 
   .nav__toggle::after {
     content: " ";
