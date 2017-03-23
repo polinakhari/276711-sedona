@@ -15,7 +15,12 @@
     height: 48px;
   }
 }
-
+.social__btn:hover{
+background-color: $btn-hvr;
+}
+.social__btn:active{
+background-color: $btn-dw;
+}
 .social__btn--tw:before {
   background: url("../img/icon-twitter.svg") 0 16px no-repeat;
   left: 15px;
