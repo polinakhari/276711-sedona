@@ -29,19 +29,19 @@
   padding: 0;
 }
 @media (max-width: 767px) {
-  .nav__link:hover{
-  background-color: $btn-hvr;
+  .nav__link:hover {
+    background-color: $btn-hvr;
   }
 
-  .nav__link:active{
-  background-color: $btn-dw;
-  color: $btn-dw-tx;
+  .nav__link:active {
+    background-color: $btn-dw;
+    color: $btn-dw-tx;
   }
 
- .nav__link--active:hover{
-  background-color: $primary-color;
-
+  .nav__link--active:hover {
+    background-color: $primary-color;
   }
+
   .nav__toggle::after {
     content: " ";
     position: absolute;
@@ -78,17 +78,15 @@
       display: none;
     }
   }
-
 }
 @media (min-width: 768px) {
   .nav__link:hover {
-      color: $accent-color;
-    }
+    color: $accent-color;
+  }
 
   .nav__link:active {
-      color: $down;
-    }
-
+    color: $down;
+  }
 
   .active {
     color: $active;
