@@ -21,10 +21,13 @@ flex-direction: column;
 }
 .gallry__title {
   text-transform: uppercase;
+@include font-title(1.4rem,2.4rem);
+text-align: left;
 }
 
 .gallry__author {
   color: $text-color;
+  font-weight: 400;
 }
 
 .gallery__image {
@@ -72,6 +75,9 @@ bottom: 8px;
 width: 100%;
   }
 .gallry__author{
+color: $primary-color;
+}
+.gallry__title{
 color: $primary-color;
 }
 .gallery__item{
