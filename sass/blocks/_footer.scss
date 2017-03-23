@@ -4,11 +4,20 @@
 
 .footer__hashtag {
   @include font-title(2.1rem);
-  padding-bottom: 40px;
+  padding-bottom: 15px;
 }
 @media (min-width:768px) {
   .footer {
     display: flex;
     justify-content: space-around;
   }
+}
+@media (min-width:768px) {
+  .footer__hashtag{
+    margin-top: 10px;
+}
+.footer{
+
+
+}
 }

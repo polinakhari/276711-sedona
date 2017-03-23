@@ -15,7 +15,12 @@
     height: 48px;
   }
 }
-
+.social__btn:hover{
+background-color: $btn-hvr;
+}
+.social__btn:active{
+background-color: $btn-dw;
+}
 .social__btn--tw:before {
   background: url("../img/icon-twitter.svg") 0 16px no-repeat;
   left: 15px;
@@ -29,4 +34,14 @@
 .social__btn--yb:before {
   background: url("../img/icon-youtube.svg") 0 17px no-repeat;
   left: 14px;
+}
+@media (min-width:768px) {
+  .social{
+margin-left: 20px;
+}
+}
+@media (min-width:1200px) {
+  .social{
+    margin-left: 74px;
+}
 }
