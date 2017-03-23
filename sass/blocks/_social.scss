@@ -30,7 +30,13 @@
   background: url("../img/icon-youtube.svg") 0 17px no-repeat;
   left: 14px;
 }
+@media (min-width:768px) {
+  .social{
+margin-left: 20px;
+}
+}
 @media (min-width:1200px) {
   .social{
-align-self: center;}
+    margin-left: 74px;
+}
 }

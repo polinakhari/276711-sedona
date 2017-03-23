@@ -12,19 +12,23 @@
 
   &:first-child:before {
     background: url("../img/icon-house.svg") no-repeat;
-    left: 8px;
+    left: 21px;
+top: 24px;
+
     background-size: contain;
   }
 
   &:nth-child(2):before {
     background: url("../img/icon-burger.svg") no-repeat;
-    left: 8px;
+    left: 18px;
+    top: 137px;
     background-size: contain;
   }
 
   &:nth-child(3):before {
     background: url("../img/icon-gift.svg") no-repeat;
-    left: 8px;
+    left: 24px;
+top: -91px;
     background-size: contain;
   }
 

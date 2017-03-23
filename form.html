@@ -51,12 +51,18 @@
   </div>
         <div class="review-part">
           <h2 class="review-part__title">Контактная информация:</h2>
-          <label for="phone-number" class="review-part__label">Контактный телефон*:</label>
-          <input type="text" class="review-part__input" id="phone-number" name="phone-number" value="Введите телефон">
-          <label for="email" class="review-part__label">Электоронная почта*:</label>
-          <input type="text" class="review-part__input" id="email" name="email" value="Введите e-mail">
-        </div>
 
+          <label for="phone-number" class="review-part__label">Контактный телефон*:</label>
+<div class="review-part__container">
+          <input type="text" class="review-part__input" id="phone-number" name="phone-number" value="Введите телефон">
+<span class="review-part__icon  review-part__icon--phone"></span>
+</div>
+<label for="email" class="review-part__label">Электоронная почта*:</label>
+<div class="review-part__container">
+          <input type="text" class="review-part__input" id="email" name="email" value="Введите e-mail">
+<span class="review-part__icon  review-part__icon--email"></span>
+        </div>
+</div>
         <div class="review-part ">
           <h2 class="review-part__title">Ваше Общее впечатление:</h2>
           <input id="positive" class="review-part__input" type="radio" name="radio">
@@ -104,6 +110,40 @@
         <a class="copyright__link" href="https://htmlacademy.ru"><img class="copyright__image" src="img/logo-htmlacademy.svg" width="27" height="34" alt="HtmlAcademy"></a>
       </section>
     </footer>
+
+
+    <article class="popup">
+      <div class="popup__item popup__item--fail">
+        <h2 class="popup__title">Что-то пошло не так!</h2>
+
+        <p class="popup__text">Проверьте поля, выделенные
+          красным, скорее всего вы забыли их
+          заполнить
+        </p>
+<div class="btn">
+  <button class="btn__pop">Ok</button>
+</div>
+      </div>
+
+
+    </article>
+
+    <article class="popup">
+      <div class="popup__item  popup__item--success">
+        <h2 class="popup__title">Ваш отзыв отправлен!</h2>
+
+        <p class="popup__text">Спасибо за ваше участие, ваш отзывуже поступил к нам.В ближайшее время мы опубликуем его на сайте.
+        </p>
+<div class="btn">
+<button class="btn__pop">Закрыть окно</button>
+</div>
+      </div>
+
+
+
+
+    </article>
+
 
 <script src="js/script.js"></script>
 </body>

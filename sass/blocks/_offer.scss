@@ -8,25 +8,33 @@
   margin: 0;
   margin-top: 21px;
 }
-
+.offer.wrapper{
+padding: 0 20px;
+}
 .offer__description {
   @include font-desc();
-    padding: 5px 15px 21px;
+    padding: 5px 0px 21px;
 }
 @media (min-width:768px) {
+.offer.wrapper{
+padding: 0 187px;
+}
 .offer__title{
   margin-top: 43px;
     font-size: 3rem;
 }
 .offer__description{
-padding: 17px 187px 21px;
+padding: 17px 0px 21px;
 }
 }
 @media (min-width:1200px) {
+  .offer.wrapper{
+  padding: 0 403px;
+  }
       .offer__title{
     margin-top: 53px;
 }
 .offer__description{
-    padding: 17px 403px 35px;
+    padding: 17px 0px 35px;
 }
 }
