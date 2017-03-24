@@ -15,7 +15,11 @@
     <nav class="nav nav--nojs nav--closed">
 <button class="nav__toggle" type="button">Меню</button>
       <div class="nav__link nav__link--active">
-        <img src="img/logo-sedona-mobile.svg" width="102" height="83" class="nav__logo" alt="Седона">
+        <picture>
+              <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
+              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+              <img class="nav__logo-icon" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
+            </picture>
               </div>
       <a href="#" class="nav__link nav__link--close active">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
@@ -28,6 +32,11 @@
     <div class="preview">
 
       <img src="img/text-sedona-index.svg" width="282" height="214" class="preview__image" alt="sedona-text">
+      <picture>
+                    <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/bg-intro-triangle-tablet.svg">
+                    <source media="(min-width:1200px)" srcset="img/bg-intro-triangle-desktop.svg">
+                    <img class="preview__triangle" src="img/bg-intro-triangle-mobile.svg" alt="Треугольник">
+                  </picture>
     </div>
 
 
@@ -40,14 +49,22 @@
     <div class="reasons  reasons--bg-blue">
 
       <div class="reasons__item">
-        <div class="reasons__text wrapper">
 
+        <div class="reasons__text wrapper">
+<img class="reasons__triangle" src="img/bg-triangle.svg" alt="треугольник">
           <h2 class="reasons__title reasons__title--bg-blue">Настоящий городок</h2>
           <span class="reasons__number reasons__number--bg-blue"> — №1 — </span>
           <p class="reasons__description reasons__description--bg-blue">Седона - не атракцион для туристов, там течет своя жизнь</p>
 
         </div>
-        <img class="reasons__image" src="img/photo-city@1x.jpg" width="320" height="260" alt="Седона">
+        <picture>
+
+          <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-city-tablet@1x.jpg 1x, img/photo-city-tablet@2x.jpg 2x">
+   <source media="(min-width:1200px)" srcset="img/photo-city@1x.jpg 1x, img/photo-city@2x.jpg 2x">
+   <img class="reasons__image" src="img/photo-city@1x.jpg" srcset="img/photo-city@1x.jpg 1x, img/photo-city@2x.jpg 2x" alt="Седона">
+
+</picture>
+
       </div>
     </div>
 
@@ -82,8 +99,14 @@
           <span class="reasons__number reasons__number--bg-blue"> — №2 — </span>
           <p class="reasons__description reasons__description--bg-blue">Да, по нему пожно пройти! Если вы осмелитесь конечно</p>
         </div>
+        <picture>
 
-        <img class="reasons__image reasons__image--one" src="img/photo-4-mobile@1x.jpg" width="512" height="260" alt="Седона">
+          <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-4-tablet@1x.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
+        <source media="(min-width:1200px)" srcset="img/photo-4-desktop@1x.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
+          <img class="reasons__image reasons__image--one" src="img/photo-4-mobile@1x.jpg"  srcset="img/photo-4-mobile@1x.jpg 1x, img/photo-4-mobile@2x.jpg 2x" alt="Седона">
+
+        </picture>
+
       </div>
     </div>
 
@@ -96,7 +119,7 @@
           <h2 class="reasons__title">Небольшая площадь</h2>
           <span class="reasons__number"> — №3 — </span>
           <p class="reasons__description">Все достопримечательности находятся очень близко</p>
-<div class="line  "></div>
+<div class="line "></div>
         </div>
 
       </div>
@@ -107,7 +130,7 @@
           <h2 class="reasons__title">Красивая дорога</h2>
           <span class="reasons__number"> — №4 — </span>
           <p class="reasons__description">Ехать в седону из лас-вегаса совсем не скучно!</p>
-<div class="line "></div>
+<div class="line"></div>
         </div>
       </div>
 
@@ -132,10 +155,9 @@
 
     </div>
     <div class="map">
-      <img src="img/bg-map-mobile@1x.jpg" width="320" height="350" class="map__image" alt="map">
-      <script type="text/javascript" charset="utf-8" async src="#"></script>
-    </div>
-  </main>
+<iframe class="map__google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52385.18050594469!2d-111.83015782304254!3d34.85437338108221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1488723440496" height="360" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</main>
 
     <footer class="footer  wrapper">
 

@@ -12,7 +12,13 @@
 display: flex;
 
 }
+.review-part__error-message{
 
+  @include font-desc();
+  text-transform: none;
+text-align: left;
+color: #ff5c5c;
+}
 .review-part__title {
   @include font-title();
 }
@@ -172,7 +178,18 @@ input[type="text"] {
     align-items: center;
     width: 100%;
   }
-
+.review-part__label--phone{
+order: -2;
+}
+.review-part__error-message{
+order: -1;
+position: relative;
+    left: 480px;
+    top: -25px;
+}
+.review-part__title{
+order: -2;
+}
   .review-part:nth-child(4) .review-part__label {
     width: 50%;
     box-sizing: border-box;
@@ -229,4 +246,15 @@ width: 315px;
   .review-part:nth-child(4) .review-part__input:nth-of-type(4):checked + .review-part__label:after {
     left: 849px;
   }
+.review-part__title{
+order: -4;
+}
+.review-part__error-message{
+order:-3;
+position: static;
+width: 100%;
+}
+.dis{
+display: none;
+}
 }

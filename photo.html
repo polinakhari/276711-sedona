@@ -15,7 +15,11 @@
     <nav class="nav nav--nojs nav--closed">
 <button class="nav__toggle" type="button">Меню</button>
       <div class="nav__link nav__link--active">
-        <img src="img/logo-sedona-mobile.svg" width="102" height="83" class="nav__logo" alt="Седона">
+        <picture>
+              <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
+              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+              <img class="nav__logo-icon" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
+            </picture>
       </div>
       <a href="index.html" class="nav__link  nav__link--close">Главная</a>
       <a href="#" class="nav__link active">Фото и видео</a>
@@ -27,7 +31,11 @@
   <main>
     <div class="preview">
       <img src="img/text-sedona.svg" width="229" height="39" class="preview__image" alt="sedona-title">
-
+      <picture>
+                    <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/bg-intro-triangle-tablet.svg">
+                    <source media="(min-width:1200px)" srcset="img/bg-intro-triangle-desktop.svg">
+                    <img class="preview__triangle" src="img/bg-intro-triangle-mobile.svg" alt="Треугольник">
+                  </picture>
     </div>
 
       <div class="preview-text wrapper">
@@ -39,7 +47,12 @@
 
       <div class="gallery">
         <div class="gallery__item">
-          <img src="img/photo-1-mobile@1x.jpg" alt="scope" class="gallery__image" width="280" height="280">
+          <picture class="gallery__image">
+                        <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-1-tablet@1x.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+                        <source media="(min-width:1200px)" srcset="img/photo-1-desktop@1x.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+                        <img  src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@1x.jpg 1x, img/photo-1-mobile@2x.jpg 2x" alt="Неродные просоры">
+                      </picture>
+
           <div class="gallery__description">
             <h2 class="gallry__title">Неродные просторы</h2>
             <span class="gallry__author">Автор фото: Борис</span>
@@ -48,7 +61,12 @@
         </div>
 <div class="line"></div>
         <div class="gallery__item">
-          <img src="img/photo-2-mobile@1x.jpg" alt="vegetation" width="280" height="280" class="gallery__image">
+          <picture class="gallery__image">
+                        <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-2-tablet@1x.jpg 1x, img/photo-2-tablet@2x.jpg 2x">
+                        <source media="(min-width:1200px)" srcset="img/photo-2-desktop@1x.jpg 1x, img/photo-2-desktop@2x.jpg 2x">
+                        <img  src="img/photo-2-mobile@1x.jpg" srcset="img/photo-2-mobile@1x.jpg 1x, img/photo-2-mobile@2x.jpg 2x" alt="Местаная растительность">
+                      </picture>
+
           <div class="gallery__description">
             <h2 class="gallry__title">Местная растительность</h2>
             <span class="gallry__author">Автор фото: Сергей</span>
@@ -57,7 +75,11 @@
         </div>
 <div class="line"></div>
         <div class="gallery__item">
-          <img src="img/photo-3-mobile@1x.jpg" alt="south" width="280" height="280" class="gallery__image">
+          <picture class="gallery__image">
+              <source media="(min-width:768px) and (max-width: 1119px)" srcset="img/photo-3-tablet@1x.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
+              <source media="(min-width:1200px)" srcset="img/photo-3-desktop@1x.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
+              <img  src="img/photo-3-mobile@1x.jpg" srcset="img/photo-3-mobile@1x.jpg 1x, img/photo-3-mobile@2x.jpg 2x" alt="Дорога на север">
+            </picture>
           <div class="gallery__description">
             <h2 class="gallry__title">Дорога на север</h2>
             <span class="gallry__author">Автор фото: Петр</span>
@@ -66,7 +88,11 @@
         </div>
 <div class="line"></div>
         <div class="gallery__item">
-          <img src="img/photo-4-mobile@1x.jpg" alt="brige" width="280" height="280" class="gallery__image">
+          <picture class="gallery__image">
+             <source media="(min-width:768px) and (max-width: 1119px)" srcset="img/photo-4-tablet@1x.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
+             <source media="(min-width:1200px)" srcset="img/photo-4-desktop@1x.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
+             <img   src="img/photo-4-mobile@1x.jpg" srcset="img/photo-4-mobile@1x.jpg 1x, img/photo-4-mobile@2x.jpg 2x" alt="Мост Дьявола">
+           </picture>
           <div class="gallery__description">
             <h2 class="gallry__title">Мост дьявола</h2>
             <span class="gallry__author">Автор фото: Антон</span>
@@ -82,25 +108,28 @@
         <h2 class="video__title">Все еще сомневаетесь?</h2>
         <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
 </div>
-<img src="img/video-mobile@1x.jpg" class="video__image" width="320" height="201" alt="video">
+<picture class="video__image">
+   <source media="(min-width:768px) and (max-width: 1119px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+   <source media="(min-width:1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+   <img   src="img/video-mobile@1x.jpg" srcset="img/video-mobile@1x.jpg 1x, img/video-mobile@2x.jpg 2x" alt="Видео">
+ </picture>
+
 
 
         <div class="video__player wrapper">
-                    <div class="video__bar">
-                      <svg class="video__dot">
-                        <line x1="23" y1="22" x2="256" y2="23" stroke="rgba(105,105,105, 0.6)" stroke-width="2"/>
-                        <circle  r="4" cx="62px" cy="23px" fill="white"/>
-                      </svg>
-                    </div>
+
                     <div class="video__control-bar">
                       <div class="video__item">
-                        <img class="video__item video__item--replay" src="img/icon-video-replay.svg">
+                        <img class="video__icon video__icon--replay" src="img/icon-video-replay.svg">
                       </div>
                       <div class="video__item">
-                        <img class="video__item video__item--subtitles" src="img/icon-video-subtitles.svg">
+                        <img class="video__icon video__icon--subtitles" src="img/icon-video-subtitles.svg">
                       </div>
                       <div class="video__item">
-                        <img class="video__item video__item--fullscreen" src="img/icon-video-fullscreen.svg">
+                        <img class="video__icon video__icon--fullscreen" src="img/icon-video-fullscreen.svg">
+                      </div>
+                      <div class="video__item video__bar">
+                        <div class="video__dot"></div>
                       </div>
                     </div>
                   </div>
