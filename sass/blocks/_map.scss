@@ -14,12 +14,17 @@ width: 320px;
     .map{
   padding-bottom: 50px;
 width: 768px;
+
+    margin-top: 65px;
 }
 .map__google{
 width: 768px;
 }
 }
 @media (min-width:1200px){
+.map{
+    padding-bottom: 26px;
+}
   .map__google{
   width: 1200px;
   }
