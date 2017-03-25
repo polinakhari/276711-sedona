@@ -16,14 +16,20 @@
 }
 
 .reasons__image {
-  width: 100%;
+  width: 320px;
+
 }
 
 .reasons__title {
   @include font-title(1.9rem);
   padding: 29px 27px 9px;
 }
-
+.reasons__text{
+width: 280px;
+}
+.reasons__text--one{
+order: 2;
+}
 .reasons__description,
 .reasons__number {
   @include font-desc(1.4rem,2.1rem);
@@ -79,13 +85,11 @@
 
   .reasons__image {
     align-items: flex-end;
-    width: 512px;
+    height: 256px;
+width: 512px;
     box-sizing: border-box;
   }
 
-  .reasons__image--one {
-    order: -1;
-  }
 
   .reasons__title {
     padding: 40px 27px 9px;
@@ -104,6 +108,7 @@
 
   .reasons__image {
     width: 800px;
+height: 256px;
   }
 
   .reasons__title {
