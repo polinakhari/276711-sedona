@@ -80,6 +80,9 @@
   }
 }
 @media (min-width: 768px) {
+  .nav__link--activate {
+      color: #766357;
+  }
   .nav__link:hover {
     color: $accent-color;
   }
@@ -88,9 +91,7 @@
     color: $down;
   }
 
-  .active {
-    color: $active;
-  }
+
 
   .active:hover {
     color: $active-hvr;
@@ -142,6 +143,9 @@
     &:after {
       display: none;
     }
+  }
+  .active {
+    color: $active;
   }
 }
 @media (min-width:1200px) {
