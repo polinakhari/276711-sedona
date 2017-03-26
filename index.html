@@ -12,10 +12,10 @@
 <body class="main_wrapper">
 
   <header class="main-header">
-    <nav class="nav nav--nojs nav--closed">
-      <button class="nav__toggle" type="button">Меню</button>
-      <div class="nav__link nav__link--active">
+    <nav class="nav nav--nojs">
 
+      <div class="nav__link nav__link--active">
+  <button class="nav__toggle" type="button">Меню</button>
         <picture>
           <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
           <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
@@ -26,13 +26,14 @@
       <a href="photo.html" class="nav__link">Фото и видео</a>
       <a href="form.html" class="nav__link">Форма отзыва</a>
       <a href="https://htmlacademy.ru/" class="nav__link">HTML ACADEMY</a>
+
     </nav>
   </header>
   <main>
 
     <div class="preview">
 
-      <img src="img/text-sedona-index.svg"  class="preview__image" alt="sedona-text">
+      <img src="img/text-sedona-index.svg"  class="preview__image  preview__image--big" alt="sedona-text">
       <picture>
         <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/bg-intro-triangle-tablet.svg">
         <source media="(min-width:1200px)" srcset="img/bg-intro-triangle-desktop.svg">
@@ -42,14 +43,14 @@
 
 
     <div class="preview-text  wrapper">
-      <h1 class="preview-text__main-title">Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
-      <p class="preview-text__main-description">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+      <h1 class="preview-text__main-title  preview-text__main-title--mini">Седона - небольшой городок в аризоне, заслуживающий большего!</h1>
+      <p class="preview-text__main-description  preview-text__main-description--padd">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
     </div>
 
 
     <div class="reasons  reasons--bg-blue">
 
-      <div class="reasons__item">
+      <div class="reasons__item  reasons__item--height">
 
         <div class="reasons__text wrapper">
           <img class="reasons__triangle" src="img/bg-triangle.svg" alt="треугольник">
@@ -102,9 +103,9 @@
         </div>
         <picture>
 
-          <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-4-tablet@1x.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
-          <source media="(min-width:1200px)" srcset="img/photo-4-desktop@1x.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
-          <img class="reasons__image" src="img/photo-4-mobile@1x.jpg" srcset="img/photo-4-mobile@1x.jpg 1x, img/photo-4-mobile@2x.jpg 2x" alt="Седона">
+          <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/photo-bridge-tablet@1x.jpg 1x, img/photo-bridge-tablet@2x.jpg 2x">
+          <source media="(min-width:1200px)" srcset="img/photo-bridge@1x.jpg 1x, img/photo-bridge@2x.jpg 2x">
+          <img class="reasons__image" src="img/photo-bridge-mobile@1x.jpg" srcset="img/photo-bridge-mobile@1x.jpg 1x, img/photo-bridge-mobile@2x.jpg 2x" alt="Седона">
 
         </picture>
 
@@ -120,7 +121,7 @@
           <h2 class="reasons__title">Небольшая площадь</h2>
           <span class="reasons__number"> — №3 — </span>
           <p class="reasons__description">Все достопримечательности находятся очень близко</p>
-          <div class="line "></div>
+          <div class="line line--mar"></div>
         </div>
 
       </div>
@@ -131,7 +132,7 @@
           <h2 class="reasons__title">Красивая дорога</h2>
           <span class="reasons__number"> — №4 — </span>
           <p class="reasons__description">Ехать в седону из лас-вегаса совсем не скучно!</p>
-          <div class="line"></div>
+          <div class="line line--mar"></div>
         </div>
       </div>
 

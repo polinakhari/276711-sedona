@@ -1,4 +1,6 @@
-.gallery {}
+.gallery {
+
+}
 .line{
 width: 100%;
 height: 1px;
@@ -18,6 +20,7 @@ position: relative;
 .gallery__description{
 display: flex;
 flex-direction: column;
+    padding: 9px 0px;
 }
 .gallry__title {
   text-transform: uppercase;
@@ -35,14 +38,16 @@ text-align: left;
 }
 
 .gallry__like {
-padding-bottom: 18px;
+  padding-bottom: 7px;
+      padding-left: 36px;
+      padding-top: 8px;
   &::after {
     content: "";
     position: absolute;
     background: url("../img/icon-like.svg") no-repeat;
     width: 23px;
     height: 21px;
-    left: 28px;
+    left: 0px;
 
   }
 }
@@ -50,6 +55,9 @@ padding-bottom: 18px;
   .gallery {
 display: flex;
 flex-wrap: wrap;
+}
+  .gallery.wrapper{
+    padding: 33px 60px 0;
 }
 .line{
 display: none;
@@ -84,6 +92,9 @@ justify-content: space-between;
 }
 }
 @media (min-width:1200px) {
+  .gallery.wrapper{
+    padding:  0;
+}
   .gallery__description{
 position: absolute;
   background-color: rgba(0,0,0,0.3);

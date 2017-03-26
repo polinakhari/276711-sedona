@@ -1,5 +1,5 @@
 .copyright {
-  padding-top: 22px;
+  padding-top: 57px;
   padding-bottom: 35px;
   display: inline-block;
 }
@@ -9,6 +9,11 @@
   vertical-align: top;
   font-weight: 400;
   display: inline-block;
+}
+.copyright__image{
+position: relative;
+top: 11px;
+    left: 4px;
 }
 @media (min-width:768px) {
   .copyright {

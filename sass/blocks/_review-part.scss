@@ -172,10 +172,7 @@ top: 199px;
     line-height: 2.6rem;
   }
 
-  .preview-text__main-title {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
+
 
   .review-part__input:hover {
     background-color: #e5e5e5;
@@ -200,6 +197,7 @@ top: 199px;
   .review-part:nth-child(1) .review-part__title,
   .review-part:nth-child(3) .review-part__title {
     text-align: left;
+    padding-bottom: 57px;
   }
 
   .review-part:nth-child(2) {
