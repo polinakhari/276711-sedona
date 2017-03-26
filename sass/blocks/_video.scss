@@ -42,6 +42,17 @@ margin-top: 0px;
     display: inline-block;
     height: 21px;
     width: 21px;
+    fill: #5c6870;
+        stroke: #5c6870;
+}
+.video__icon:active {
+    fill: #c1c1c1;
+    stroke: #c1c1c1;
+}
+
+.video__icon:hover {
+    fill: #333333;
+    stroke: #333333;
 }
 .video__bar{
 z-index: 3;
