@@ -1,5 +1,5 @@
 .review-part {
-  padding: 24px 0;
+  padding: 23px 0 0px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -10,6 +10,7 @@
 .review-part__container {
   width: 100%;
   display: flex;
+    padding-bottom: 23px;
 }
 
 .review-part__error-message {
@@ -17,26 +18,44 @@
   text-transform: none;
   text-align: left;
   color: #ff5c5c;
+padding-left: 22px;
+padding-bottom: 12px;
 }
 
 .review-part__title {
   @include font-title();
+    padding-bottom: 24px;
 }
 
 .review-part__label {
   @include font-desc();
   text-align: left;
   display: block;
-  padding-right: 15px;
+  padding-right: 10px;
+align-self: center;
 }
-
+.review-part__label--phone{
+align-self:auto;
+    padding-left: 22px;
+    padding-bottom: 5px;
+}
+.review-part__label--email{
+align-self: auto;
+  padding-left: 22px;
+padding-bottom: 8px;
+}
+.review-part__title--event{
+padding-top: 10px;
+}
 .review-part:nth-child(3) .review-part__label,
 .review-part:nth-child(4) .review-part__label {
   width: calc(100% - 80px);
   text-align: left;
-  padding: 16px 0 16px 80px;
+  padding: 14px 0 29px 80px;
 }
-
+.review-part:nth-child(4) .review-part__label {
+padding: 8px 0 46px 80px;
+}
 .review-part:nth-child(3) .review-part__label:hover::before {
   background-color: #e5e5e5;
 }
@@ -75,8 +94,12 @@ input[type="text"] {
   background-color: #f2f2f2;
   width: auto;
   flex-grow: 1;
+padding-left: 24px;
+text-align: left;
 }
-
+.review-part__container--padd{
+padding-bottom: 6px;
+}
 .review-part__textarea {
   @include font-desc();
   font-size: 18px;
@@ -86,6 +109,11 @@ input[type="text"] {
   width: 100%;
   background-color: #f2f2f2;
   border: 0;
+  padding-top: 10px;
+  text-align: left;
+  padding-left: 21px;
+  min-height: 140px;
+      margin-bottom: 52px;
 }
 
 .review-part:nth-child(2) {
@@ -184,6 +212,9 @@ input[type="text"] {
 .review-part__input,
 .review-part__label {
   justify-content: flex-start;
+}
+.review-part--emoji{
+padding-top: 13px;
 }
 
 .review-part__title {
