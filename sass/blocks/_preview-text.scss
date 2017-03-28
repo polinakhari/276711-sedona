@@ -1,24 +1,51 @@
 .preview-text__main-title {
   @include font-title(1.9rem,2.6rem);
-padding-bottom: 13px;
+    padding-bottom: 14px;
 }
 
 .preview-text__main-description {
-  @include font-desc(1.4rem,2.6rem);
-  padding-top: 0;
-  padding-bottom: 13px;
+  @include font-desc(1.4rem,2.4rem);
+padding: 0 5px 11px;
+    margin: 0;
+
 }
 @media (min-width:768px) {
   .preview-text__main-title {
     padding: 30px 100px 15px;
   font-size: 2rem;
   }
+  .preview-text__main-title {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+  .preview-text__main-title--mini {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+padding-top: 10px;
+  }
 .preview-text__main-description{
-padding-bottom: 37px;
+    padding: 0px 90px;
+padding-bottom: 19px;
 }
+.preview-text__main-description--padd{
+padding-bottom: 27px;
+}
+
 }
 @media (min-width:1200px) {
   .preview-text__main-title{
-padding: 30px 280px 15px;
+padding: 30px 280px 7px;
+}
+.preview-text__main-title--mini{
+    padding: 9px 280px 13px;
+}
+.preview-text__main-description{
+padding: 0 317px;
+
+padding-bottom: 19px;
+}
+.preview-text__main-description--padd{
+padding: 0 290px;
+padding-bottom: 29px
 }
 }

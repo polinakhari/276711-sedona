@@ -5,6 +5,8 @@
 .footer__hashtag {
   @include font-title(2.1rem);
   padding-bottom: 15px;
+  padding-bottom: 0px;
+      margin-bottom: 0px;
 }
 @media (min-width:768px) {
   .footer {

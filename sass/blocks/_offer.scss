@@ -9,7 +9,7 @@
   margin-top: 21px;
 }
 .offer.wrapper{
-padding: 0 20px;
+padding: 7px 20px;
 }
 .offer__description {
   @include font-desc();
@@ -17,24 +17,24 @@ padding: 0 20px;
 }
 @media (min-width:768px) {
 .offer.wrapper{
-padding: 0 187px;
+    padding: 0 155px;
 }
 .offer__title{
-  margin-top: 43px;
+      margin-top: 48px;
     font-size: 3rem;
 }
 .offer__description{
-padding: 17px 0px 21px;
+    padding: 18px 29px 28px;
 }
 }
 @media (min-width:1200px) {
   .offer.wrapper{
-  padding: 0 403px;
+  padding: 0 371px;
   }
       .offer__title{
-    margin-top: 53px;
+    margin-top: 93px;
 }
 .offer__description{
-    padding: 17px 0px 35px;
+    padding: 17px 0px 33px 35px;
 }
 }

@@ -59,6 +59,7 @@
 
   .nav--active .nav__toggle::after {
     background-image: url("../img/icon-cross.svg");
+    top: -200px;
   }
 
   .nav--closed .nav__link:not(.nav__link--active) {
@@ -74,12 +75,16 @@
       display: block;
     }
 
-    .nav__toggle:after {
-      display: none;
-    }
+
+  }
+.nav--nojs  .nav__toggle::after {
+    display: none;
   }
 }
 @media (min-width: 768px) {
+  .nav__link--activate {
+      color: #766357;
+  }
   .nav__link:hover {
     color: $accent-color;
   }
@@ -88,9 +93,7 @@
     color: $down;
   }
 
-  .active {
-    color: $active;
-  }
+
 
   .active:hover {
     color: $active-hvr;
@@ -105,24 +108,24 @@
     background-color: $primary-color;
   }
 
-  .nav__link:nth-child(5) {
+  .nav__link:nth-child(4) {
     order: 2;
     padding-left: 54px;
     padding-top: 14px;
   }
 
-  .nav__link:nth-child(4) {
+  .nav__link:nth-child(3) {
     order: 0;
     padding-left: 76px;
     padding-top: 14px;
   }
 
-  .nav__link:nth-child(3) {
+  .nav__link:nth-child(2) {
     padding-left: 50px;
     padding-top: 14px;
   }
 
-  .nav__link:nth-child(6) {
+  .nav__link:nth-child(5) {
     padding-left: 50px;
     padding-top: 14px;
     order: 4;
@@ -143,32 +146,35 @@
       display: none;
     }
   }
+  .active {
+    color: $active;
+  }
 }
 @media (min-width:1200px) {
-  .nav__link:nth-child(5) {
-    order: 2;
-    padding-left: 139px;
-    padding-top: 14px;
-  }
-
   .nav__link:nth-child(4) {
-    order: 0;
-    padding-left: 162px;
+    order: 2;
+        padding-left: 97px;
     padding-top: 14px;
   }
 
   .nav__link:nth-child(3) {
+    order: 0;
+    padding-left: 163px;
+    padding-top: 14px;
+  }
+
+  .nav__link:nth-child(2) {
     padding-left: 90px;
     padding-top: 14px;
   }
 
-  .nav__link:nth-child(6) {
+  .nav__link:nth-child(5) {
     padding-left: 138px;
     padding-top: 14px;
     order: 4;
   }
 
   .nav__link--active {
-    padding-left: 141px;
+        padding-left: 99px;
   }
 }
