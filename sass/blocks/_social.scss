@@ -49,7 +49,11 @@ position: absolute;
 @media (min-width:768px) {
   .social {
     margin-left: 20px;
+
   }
+.social__btn{
+top: 4px;
+}
 }
 @media (min-width:1200px) {
   .social {

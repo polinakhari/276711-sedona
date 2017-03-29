@@ -110,6 +110,15 @@ z-index: 10;
 .video{
 padding: 0 60px;
 }
+.video__title{
+    padding: 58px 0 12px;
+    font-size: 3rem;
+              line-height: 3rem;
+}
+.video__description{
+  padding: 0 57px 59px;
+
+}
 .video__player.wrapper{
 padding: 0;
 }
@@ -122,7 +131,7 @@ width: 389px;
 .video__player{
 width: 768px;
 position: relative;
-    bottom: 66px;
+    bottom: 63px;
 }
 .video__control-bar{
 display: flex;

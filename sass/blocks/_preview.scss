@@ -44,7 +44,8 @@ position: relative;
 @media (min-width:768px) {
   .preview__image {
     width: 458px;
-padding-top: 77px;
+    padding-top: 93px;
+        padding-bottom: 84px;
   }
   .preview {
     height: 518px;
@@ -83,12 +84,13 @@ display: none;
 background-image: url("../img/bg-back-desktop@1x.jpg");
 height: 518px;
 .preview__triangle{
-bottom: 67px;
+bottom: 51px;
 width: 1203px;
 
 }
+
 .preview__triangle__mini{
-    bottom: 26px;
+    bottom: 10px;
 }
 .mini .preview{
 height: 300px;
