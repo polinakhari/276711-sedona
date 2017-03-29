@@ -32,7 +32,7 @@
       <picture>
                     <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/bg-intro-triangle-tablet.svg">
                     <source media="(min-width:1200px)" srcset="img/bg-intro-triangle-desktop.svg">
-                    <img class="preview__triangle  preview__triangle__mini" src="img/bg-intro-triangle-mobile.svg" alt="Треугольник">
+                    <img class="preview__triangle  preview__triangle__mini" src="data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgd2lkdGg9IjMyMHB4IiBoZWlnaHQ9IjI2LjExMXB4IiB2aWV3Qm94PSI0NDAuNDY5IDMwLjg4OSAzMjAgMjYuMTExIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDQ0MC40NjkgMzAuODg5IDMyMCAyNi4xMTEiIHhtbDpzcGFjZT0icHJlc2VydmUiPgogIDxwb2x5Z29uIGZpbGw9IiNGRkZGRkYiIHBvaW50cz0iNzYwLjQ2OSw1NyA3NjAuNDY5LDMwLjg4OSA1OTkuOTU1LDU3Ii8+CiAgPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSI0NDAuNDY5LDU3IDU5OS45NTUsNTcgNDQwLjQ2OSwzMS4wNTYiLz4KPC9zdmc+Cg==" alt="Треугольник">
                   </picture>
     </div>
 
@@ -86,6 +86,7 @@
 
         <div class="review-part">
           <h2 class="review-part__title  review-part__title--event">Посещенные достопримечательности:</h2>
+
           <input id="brige" type="checkbox" class="review-part__input" name="brige" checked>
           <label for="brige" class="review-part__label  review-part__label--small">Мост Дьявола</label>
           <input id="park" type="checkbox" class="review-part__input" name="park" checked>
@@ -99,7 +100,8 @@
         <div class="review-part  review-part--emoji">
           <h2 class="review-part__title  review-part__title--emoji">Опишите свои эмоции:</h2>
           <textarea id="emotions" name="text" class="review-part__textarea" required>Опишите подробно все свои восторги</textarea>
-        </div>
+<div class="required">* - Обязательные поля </div>
+</div>
 
         <div class="btn">
           <button type="submit" class="btn__review">Отправить отзыв</button>
