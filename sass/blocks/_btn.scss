@@ -30,6 +30,19 @@ background-color: $btn-hvr;
 background-color: $btn-dw;
 color: $btn-dw-tx;
 }
+@media (min-width:768px) {
+.btn{
+padding-left: 13px;
+padding-bottom: 92px;
+
+}
+  .btn__review{
+    padding: 13px;
+padding: 0px 77px 0 66px;
+
+}
+
+}
 @media (min-width:1200px) {
   .btn__review{
     width: 480px;
