@@ -3,9 +3,17 @@
   background-color: $primary-color;
   position: relative;
 box-sizing: border-box;
+padding-top: 6px;
 }
 @media (min-width:768px) {
   .recommendation {
     display: flex;
+    padding-top: 5px;
+
+  }
+}
+@media (min-width:1200px) {
+  .recommendation {
+    padding-top: 5px;
   }
 }

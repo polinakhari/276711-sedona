@@ -22,10 +22,11 @@ width: 320px;
 }
 @media (min-width:768px) {
     .map{
-      padding-bottom: 23px;
+      padding-bottom: 21px;
 width: 768px;
 background: url("../img/bg-map-tablet@1x.jpg") center top no-repeat;
-    margin-top: 58px;
+margin-top: -34px;
+
 background-size: contain;
 }
 .map__google{
@@ -41,6 +42,8 @@ background-size: contain;
 @media (min-width:1200px){
 .map{
     padding-bottom: 26px;
+  margin-top: 58px;
+
 background: url("../img/bg-map-desktop@1x.jpg") center top no-repeat;
 width: 1200px;
 background-size: contain;
@@ -54,4 +57,5 @@ background-size: contain;
   background: url("../img/bg-map-desktop@2x.jpg") center top no-repeat;
 background-size: contain;
   }
+
 }

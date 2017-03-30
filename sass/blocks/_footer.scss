@@ -11,15 +11,22 @@
 @media (min-width:768px) {
   .footer {
     display: flex;
-    justify-content: space-around;
+
   }
-}
-@media (min-width:768px) {
   .footer__hashtag{
     margin-top: 14px;
+margin-left: 16px;
 }
-.footer{
-
 
 }
+@media (min-width:1200px) {
+.footer.wrapper{
+  padding: 4px 37px 0;
+
+}
+  .footer__hashtag {
+          margin-left: 93px;
+
+  }
+
 }

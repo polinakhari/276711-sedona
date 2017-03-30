@@ -24,3 +24,17 @@ top: 11px;
     padding-bottom: 0;
   }
 }
+@media (min-width:768px) {
+.copyright__text{
+  padding-left: 123px;
+}
+}
+@media (min-width:1200px) {
+.copyright__text{
+  padding-left: 355px;
+
+}
+.copyright__text--form{
+padding-left: 279px;
+}
+}

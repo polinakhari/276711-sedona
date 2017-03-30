@@ -5,9 +5,20 @@
 
 .preview-text__main-description {
   @include font-desc(1.4rem,2.4rem);
-padding: 0 5px 11px;
+padding: 0 5px 26px;
     margin: 0;
 
+}
+.preview-text__main-description--form{
+padding: 0;
+padding-bottom: 11px;
+}
+.preview-text__main-description--padd{
+    padding: 0 5px 29px;
+
+}
+.line-mar {
+    margin-bottom: -3px;
 }
 @media (min-width:768px) {
   .preview-text__main-title {
@@ -25,14 +36,22 @@ padding-top: 10px;
   }
 .preview-text__main-description{
     padding: 0px 116px;
-padding-bottom: 19px;
+padding-bottom: 23px;
 }
 .preview-text__main-description--padd{
+padding: 0px 95px;
 padding-bottom: 27px;
-}
 
 }
+.preview-text__main-title--padd{
+padding: 33px 100px 9px;
+}
+}
 @media (min-width:1200px) {
+.gallery__text{
+padding-bottom: 6px;
+padding-top: 12px;
+}
   .preview-text__main-title{
 padding: 30px 280px 7px;
 }
@@ -42,10 +61,20 @@ padding: 30px 280px 7px;
 .preview-text__main-description{
 padding: 0 317px;
 
-padding-bottom: 19px;
+padding-bottom: 70px;
 }
 .preview-text__main-description--padd{
 padding: 0 290px;
 padding-bottom: 29px
+}
+.preview-text__main-title {
+    padding: 33px 100px 11px;
+
+}
+.preview-text__main-description--form{
+    padding-bottom: 19px;
+}
+.preview-text__main-title--form{
+    padding: 33px 100px 11px;
 }
 }

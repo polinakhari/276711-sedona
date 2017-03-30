@@ -39,7 +39,8 @@ width: 280px;
 
 .reasons__description {
   margin-bottom: 28px;
-    padding: 0 11px;
+
+padding: 0px 11px;
 }
 .reasons__text--one{
 order: 0;
@@ -57,11 +58,11 @@ order: 0;
 .reasons__title--bg-blue {
   padding: 38px 27px 9px;
 }
-.line--mar{
-margin-bottom: 0;
-}
+
 .reasons__description--bg-blue {
   margin-bottom: 42px;
+    padding: 0px 6px;
+
 }
 @media (min-width:768px) {
   .reasons {
@@ -114,6 +115,7 @@ width: 512px;
   .reasons__description {
     margin-bottom: 28px;
     margin-top: 22px;
+
   }
 }
 @media (min-width:1200px) {
@@ -127,14 +129,18 @@ height: 256px;
   }
 
   .reasons__title {
-    padding: 40px 59px 9px;
+        padding: 45px 59px 9px;
+  }
+  .reasons--bg-blue {
+      margin-top: 23px;
   }
 
   .reasons__title--bg-blue {
-    padding: 52px 32px 9px;
+        padding: 52px 63px 9px;
   }
 
   .reasons__description--bg-blue {
     margin-bottom: 58px;
+    padding: 0 18px;
   }
 }
