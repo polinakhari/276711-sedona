@@ -9,7 +9,10 @@ display: flex;
 justify-content: center;
 
 }
+.btn--form{
+  margin-bottom: 53px;
 
+}
 .btn__review,
 .btn__search,
 ,.btn__pop {
@@ -32,8 +35,8 @@ color: $btn-dw-tx;
 }
 @media (min-width:768px) {
 .btn{
-padding-left: 13px;
-padding-bottom: 92px;
+margin-left: 13px;
+margin-bottom: 92px;
 
 }
   .btn__review{

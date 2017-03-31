@@ -11,6 +11,7 @@
 @media (min-width:768px) {
   .footer {
     display: flex;
+padding-bottom: 30px;
 
   }
   .footer__hashtag{
@@ -21,7 +22,7 @@ margin-left: 16px;
 }
 @media (min-width:1200px) {
 .footer.wrapper{
-  padding: 4px 37px 0;
+padding: 4px 37px 35px;
 
 }
   .footer__hashtag {
