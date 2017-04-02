@@ -1,13 +1,13 @@
 .map {
   padding-bottom: 3px;
   width: 320px;
-  background: url("../img/bg-map-mobile@1x.jpg") center top no-repeat;
+  background: #f5f2e4 url("../img/bg-map-mobile@1x.jpg") center top no-repeat;
   background-size: contain;
   margin-top: 42px;
 }
 @media (max-width:767px) and (min-resolution: 144dpi), (max-width:767px) and (min-resolution: 1.5dppx) {
   .map {
-    background: url("../img/bg-map-mobile@2x.jpg") center top no-repeat;
+    background: #f5f2e4 url("../img/bg-map-mobile@2x.jpg") center top no-repeat;
     background-size: contain;
     margin-top: 42px;
   }
@@ -25,7 +25,7 @@
   .map {
     padding-bottom: 21px;
     width: 768px;
-    background: url("../img/bg-map-tablet@1x.jpg") center top no-repeat;
+    background: #f5f2e4 url("../img/bg-map-tablet@1x.jpg") center top no-repeat;
     margin-top: -34px;
     background-size: contain;
   }
@@ -36,7 +36,7 @@
 }
 @media (min-width:768px) and (min-resolution: 144dpi), (min-width:768px) and (min-resolution: 1.5dppx) {
   .map {
-    background: url("../img/bg-map-tablet@2x.jpg") center top no-repeat;
+    background: #f5f2e4 url("../img/bg-map-tablet@2x.jpg") center top no-repeat;
     background-size: contain;
   }
 }
@@ -44,7 +44,7 @@
   .map {
     padding-bottom: 15px;
     margin-top: 58px;
-    background: url("../img/bg-map-desktop@1x.jpg") center top no-repeat;
+    background: #f5f2e4 url("../img/bg-map-desktop@1x.jpg") center top no-repeat;
     width: 1200px;
     background-size: contain;
   }
@@ -55,7 +55,7 @@
 }
 @media (min-width:1200px) and (min-resolution: 144dpi), (min-width:1200px) and (min-resolution: 1.5dppx) {
   .map {
-    background: url("../img/bg-map-desktop@2x.jpg") center top no-repeat;
+    background: #f5f2e4 url("../img/bg-map-desktop@2x.jpg") center top no-repeat;
     background-size: contain;
   }
 }

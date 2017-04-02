@@ -1,6 +1,6 @@
 var popSuccess = document.querySelector("popup__item--success");
-var popFail = document.querySelector("popup__item--fail");
 var popButtonSuccess = document.querySelector("btn__pop--success");
+var popFail = document.querySelector("popup__item--fail");
 var popButtonFail = document.querySelector("btn__pop--fail");
 
 popSuccess.classList.add("popup__item--success--opened");
@@ -14,6 +14,6 @@ popButtonSuccess.addEventListener("click", function() {
 
 popButtonFail.addEventListener("click", function() {
   if (popFail.classList.contains("popup__item--fail--opened")) {
-    popFail.classList.add("popup__item--failure--closed");
+    popFail.classList.add("popup__item--fail--closed");
   }
 });
