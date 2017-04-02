@@ -1,60 +1,65 @@
-button{
-border: none;
+button {
+  border: none;
 }
+
 .btn {
-
   height: 58px;
-margin-bottom: 0px;
-display: flex;
-justify-content: center;
-
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
 }
-.btn--form{
+
+.btn--form {
   margin-bottom: 53px;
-
 }
+
+,
+.btn__pop,
 .btn__review,
-.btn__search,
-,.btn__pop {
+.btn__search {
   @include font-title(2.1rem,5.6rem);
   vertical-align: middle;
   text-decoration: none;
   color: $primary-color;
   background-color: $accent-color;
-width: 100%;
-}
-.btn:hover,.btn__review:hover,
-.btn__search:hover{
-background-color: $btn-hvr;
+  width: 100%;
 }
 
-.btn:active,.btn__review:active,
-.btn__search:active{
-background-color: $btn-dw;
-color: $btn-dw-tx;
+.btn:hover,
+.btn__review:hover,
+.btn__search:hover {
+  background-color: $btn-hvr;
+}
+
+.btn:active,
+.btn__review:active,
+.btn__search:active {
+  background-color: $btn-dw;
+  color: $btn-dw-tx;
 }
 @media (min-width:768px) {
-.btn{
-margin-left: 13px;
-margin-bottom: 92px;
+  .btn {
+    margin-left: 13px;
+    margin-bottom: 92px;
+  }
 
-}
-  .btn__review{
-    padding: 13px;
-padding: 0px 77px 0 66px;
+  .btn__review {
+    padding: 0 77px 0 66px;
+  }
 
-}
-.offer .btn--ind{
-padding-left: 0px;
-
-}
+  .offer .btn--ind {
+    padding-left: 0;
+  }
 }
 @media (min-width:1200px) {
-  .btn__review{
+  .btn__review {
     width: 480px;
-}
-.offer .btn--ind{
-padding-left: 0px;
-padding-bottom: 0px;
-}
+  }
+
+  .offer .btn--ind {
+    padding-left: 0;
+    margin-left: 0;
+    padding-bottom: 0;
+    margin-bottom: 68px;
+  }
 }

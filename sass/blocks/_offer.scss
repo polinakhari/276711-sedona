@@ -5,36 +5,41 @@
 
 .offer__title {
   @include font-title(2.1rem,26px);
-  margin: 0;
-  margin-top: 21px;
+  margin: 21px 0 0;
 }
-.offer.wrapper{
-padding: 7px 20px;
+
+.offer.wrapper {
+  padding: 7px 20px;
 }
+
 .offer__description {
   @include font-desc();
-    padding: 5px 0px 21px;
+  padding: 5px 0 21px;
 }
 @media (min-width:768px) {
-.offer.wrapper{
+  .offer.wrapper {
     padding: 0 155px;
-}
-.offer__title{
-      margin-top: 48px;
+  }
+
+  .offer__title {
+    margin-top: 48px;
     font-size: 3rem;
-}
-.offer__description{
-      padding: 18px 31px 28px;
-}
+  }
+
+  .offer__description {
+    padding: 18px 31px 28px;
+  }
 }
 @media (min-width:1200px) {
-  .offer.wrapper{
-  padding: 0 371px;
+  .offer.wrapper {
+    padding: 0 371px;
   }
-      .offer__title{
+
+  .offer__title {
     margin-top: 93px;
-}
-.offer__description{
-    padding: 17px 0px 33px 35px;
-}
+  }
+
+  .offer__description {
+    padding: 17px 0 33px 35px;
+  }
 }

@@ -19,7 +19,7 @@
 
 .social__icon {
   fill: $primary-color;
-position: absolute;
+  position: absolute;
 }
 
 .social__icon:active {
@@ -33,31 +33,32 @@ position: absolute;
 .social__btn:active {
   background-color: $btn-dw;
 }
+
 .social__icon--tw {
-    top: 16px;
-    right: 15px;
-}
-.social__icon--yb {
-    top: 17px;
-    right: 13px;
-}
-.social__icon--fb {
-    top: 13px;
-    right: 19px;
+  top: 16px;
+  right: 15px;
 }
 
+.social__icon--yb {
+  top: 17px;
+  right: 13px;
+}
+
+.social__icon--fb {
+  top: 13px;
+  right: 19px;
+}
 @media (min-width:768px) {
   .social {
-        margin-left: 112px;
-
+    margin-left: 112px;
   }
-.social__btn{
-top: 4px;
-}
+
+  .social__btn {
+    top: 4px;
+  }
 }
 @media (min-width:1200px) {
   .social {
-        margin-left: 258px;
-
+    margin-left: 258px;
   }
 }

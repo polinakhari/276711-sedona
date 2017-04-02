@@ -10,13 +10,15 @@
   font-weight: 400;
   display: inline-block;
 }
-.copyright__image{
-position: relative;
-top: 11px;
-    left: 4px;
+
+.copyright__image {
+  position: relative;
+  top: 11px;
+  left: 4px;
 }
+
 .copyright__image:hover {
-    fill: #81b3d2;
+  fill: #81b3d2;
 }
 @media (min-width:768px) {
   .copyright {
@@ -25,16 +27,16 @@ top: 11px;
   }
 }
 @media (min-width:768px) {
-.copyright__text{
-  padding-left: 123px;
-}
+  .copyright__text {
+    padding-left: 123px;
+  }
 }
 @media (min-width:1200px) {
-.copyright__text{
-  padding-left: 355px;
+  .copyright__text {
+    padding-left: 355px;
+  }
 
-}
-.copyright__text--form{
-padding-left: 279px;
-}
+  .copyright__text--form {
+    padding-left: 279px;
+  }
 }

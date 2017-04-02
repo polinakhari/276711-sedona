@@ -13,12 +13,12 @@
     <nav class="nav nav--nojs">
 
       <div class="nav__link nav__link--active">
-  <button class="nav__toggle" type="button">Меню</button>
+        <button class="nav__toggle" type="button">Меню</button>
         <picture>
-              <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
-              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
-              <img class="nav__logo-icon" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
-            </picture>
+          <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
+          <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+          <img class="nav__logo-icon" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
+        </picture>
       </div>
       <a href="index.html" class="nav__link  nav__link--close">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
@@ -28,7 +28,7 @@
   </header>
   <main class="mini">
     <div class="preview">
-      <img src="img/text-sedona.svg"  class="preview__image  preview__image--mini" alt="sedona-text">
+      <img src="img/text-sedona.svg" class="preview__image  preview__image--mini" alt="sedona-text">
       <picture>
         <source media="(min-width:768px) and (max-width: 1199px)" srcset="img/bg-intro-triangle-tablet.svg">
         <source media="(min-width:1200px)" srcset="img/bg-intro-triangle-desktop.svg">
@@ -36,44 +36,44 @@
       </picture>
     </div>
 
-      <div class="preview-text  wrapper">
-        <h1 class="preview-text__main-title  preview-text__main-title--form">Оставьте свой отзыв</h1>
-        <p class="preview-text__main-description  preview-text__main-description--form">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-      </div>
+    <div class="preview-text  wrapper">
+      <h1 class="preview-text__main-title  preview-text__main-title--form">Оставьте свой отзыв</h1>
+      <p class="preview-text__main-description  preview-text__main-description--form">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </div>
 
 
     <div class="wrapper">
       <form class="review" method="post" action="https://echo.htmlacademy.ru">
         <div class="review-part">
           <h2 class="review-part__title">Представьтесь:</h2>
-<div class="review-part__container review-part__container--size">
-          <label for="men" class="review-part__label">Имя*:</label>
-          <input type="text" class="review-part__input" id="men" name="name" placeholder="Петр">
-  </div>
-<div class="review-part__container review-part__container--size">
-          <label for="sur" class="review-part__label">Фамилия*:</label>
-          <input type="text" class="review-part__input" id="sur" name="sur" placeholder="Иванов">
-  </div>
-<div class="review-part__container review-part__container--size">
-          <label for="patronymic" class="review-part__label">Отчество:</label>
-          <input type="text" class="review-part__input" id="patronymic" name="patronymic" placeholder="Александрович">
+          <div class="review-part__container review-part__container--size">
+            <label for="men" class="review-part__label">Имя*:</label>
+            <input type="text" class="review-part__input" id="men" name="name" placeholder="Петр">
+          </div>
+          <div class="review-part__container review-part__container--size">
+            <label for="sur" class="review-part__label">Фамилия*:</label>
+            <input type="text" class="review-part__input" id="sur" name="sur" placeholder="Иванов">
+          </div>
+          <div class="review-part__container review-part__container--size">
+            <label for="patronymic" class="review-part__label">Отчество:</label>
+            <input type="text" class="review-part__input" id="patronymic" name="patronymic" placeholder="Александрович">
+          </div>
         </div>
-  </div>
         <div class="review-part">
           <h2 class="review-part__title">Контактная информация:</h2>
 
           <label for="phone-number" class="review-part__label review-part__label--phone"><span class="dis">Контактный</span> телефон*:</label>
-<div class="review-part__container  review-part__container--padd">
-          <input type="text" class="review-part__input review-part__input--padd" id="phone-number" name="phone-number" placeholder="Введите телефон" pattern="+[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
-<span class="review-part__icon  review-part__icon--phone"></span>
-</div>
-<span class="review-part__error-message">Ошибка, перепроверьте номер</span>
-<label for="email" class="review-part__label  review-part__label--email">Электоронная почта*:</label>
-<div class="review-part__container  review-part__container--email">
-          <input type="text" class="review-part__input  review-part__input--email" id="email" name="email" placeholder="Введите e-mail">
-<span class="review-part__icon  review-part__icon--email"></span>
+          <div class="review-part__container  review-part__container--padd">
+            <input type="text" class="review-part__input review-part__input--padd" id="phone-number" name="phone-number" placeholder="Введите телефон" pattern="7-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+            <span class="review-part__icon  review-part__icon--phone"></span>
+          </div>
+          <span class="review-part__error-message">Ошибка, перепроверьте номер</span>
+          <label for="email" class="review-part__label  review-part__label--email">Электоронная почта*:</label>
+          <div class="review-part__container  review-part__container--email">
+            <input type="text" class="review-part__input  review-part__input--email" id="email" name="email" placeholder="Введите e-mail">
+            <span class="review-part__icon  review-part__icon--email"></span>
+          </div>
         </div>
-</div>
         <div class="review-part ">
           <h2 class="review-part__title">Ваше Общее впечатление:</h2>
           <input id="positive" class="review-part__input" type="radio" name="radio">
@@ -100,8 +100,8 @@
         <div class="review-part  review-part--emoji">
           <h2 class="review-part__title  review-part__title--emoji">Опишите свои эмоции:</h2>
           <textarea id="emotions" name="text" class="review-part__textarea" required>Опишите подробно все свои восторги</textarea>
-<div class="required">* - Обязательные поля </div>
-</div>
+          <div class="required">* - Обязательные поля </div>
+        </div>
 
         <div class="btn  btn--form">
           <button type="submit" class="btn__review">Отправить отзыв</button>
@@ -147,40 +147,39 @@
   </footer>
 
 
-    <article class="popup">
-      <div class="popup__item popup__item--fail">
-        <h2 class="popup__title">Что-то пошло не так!</h2>
+  <article class="popup  popup--fail">
+    <div class="popup__item popup__item--fail popup__item--fail--closed">
+      <h2 class="popup__title  popup__title--fail">Что-то пошло не так!</h2>
 
-        <p class="popup__text">Проверьте поля, выделенные
-          красным, скорее всего вы забыли их
-          заполнить
-        </p>
-<div class="btn">
-  <button class="btn__pop">Ok</button>
-</div>
+      <p class="popup__text  popup__text--fail">Проверьте поля, выделенные красным, скорее всего вы забыли их заполнить
+      </p>
+      <div class="btn btn--pop">
+        <button class="btn__pop  btn__pop--fail">Ok</button>
       </div>
+    </div>
 
 
-    </article>
+  </article>
 
-    <article class="popup">
-      <div class="popup__item  popup__item--success">
-        <h2 class="popup__title">Ваш отзыв отправлен!</h2>
+  <article class="popup  popup--success">
+    <div class="popup__item  popup__item--success  popup__item--success--closed">
+      <h2 class="popup__title  popup__title--success ">Ваш отзыв отправлен!</h2>
 
-        <p class="popup__text">Спасибо за ваше участие, ваш отзывуже поступил к нам.В ближайшее время мы опубликуем его на сайте.
-        </p>
-<div class="btn">
-<button class="btn__pop">Закрыть окно</button>
-</div>
+      <p class="popup__text  popup__text--success">Спасибо за ваше участие, ваш отзывуже поступил к нам.В ближайшее время мы опубликуем его на сайте.
+      </p>
+      <div class="btn  btn--pop">
+        <button class="btn__pop  btn__pop--success">Закрыть окно</button>
       </div>
+    </div>
 
 
 
 
-    </article>
+  </article>
 
 
-<script src="js/script.js"></script>
+  <script src="js/script.js"></script>
+  <script src="js/popup.js"></script>
 </body>
 
 </html>
