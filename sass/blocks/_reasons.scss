@@ -142,6 +142,7 @@
 
   .reasons picture {
     width: 800px;
+overflow: hidden;
   }
 
   .reasons__image {
@@ -164,5 +165,10 @@
   .reasons__description--bg-blue {
     margin-bottom: 58px;
     padding: 0 18px;
+  }
+  @-moz-document url-prefix() {
+    .reasons__image {
+      height: 256px;
+    }
   }
 }
