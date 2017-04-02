@@ -5,21 +5,26 @@
 .footer__hashtag {
   @include font-title(2.1rem);
   padding-bottom: 15px;
-  padding-bottom: 0px;
-      margin-bottom: 0px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 @media (min-width:768px) {
   .footer {
     display: flex;
-    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+  .footer__hashtag {
+    margin-top: 14px;
+    margin-left: 16px;
   }
 }
-@media (min-width:768px) {
-  .footer__hashtag{
-    margin-top: 14px;
-}
-.footer{
+@media (min-width:1200px) {
+  .footer.wrapper {
+    padding: 4px 37px 35px;
+  }
 
-
-}
+  .footer__hashtag {
+    margin-left: 93px;
+  }
 }
