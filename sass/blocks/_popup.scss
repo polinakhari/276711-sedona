@@ -18,14 +18,14 @@
     background-color: $primary-color;
     z-index: 6;
     box-shadow: 0 0 30px 16px rgba(0,0,0,0.1);
+  }
 
-    &--opened {
-      display: flex;
-    }
+  &--opened {
+    display: flex;
+  }
 
-    &--closed {
-      display: none;
-    }
+  &--closed {
+    display: none;
   }
 
   &--fail {
@@ -39,14 +39,14 @@
     background-color: $primary-color;
     z-index: 6;
     box-shadow: 0 0 30px 16px rgba(0,0,0,0.1);
+  }
 
-    &--opened {
-      display: flex;
-    }
+  &--opened {
+    display: flex;
+  }
 
-    &--closed {
-      display: none;
-    }
+  &--closed {
+    display: none;
   }
 }
 

@@ -93,11 +93,11 @@
     color: $down;
   }
 
-  .active:hover {
+  .nav__link--now:hover {
     color: $active-hvr;
   }
 
-  .active:active {
+  .nav__link--now:active {
     color: $active-dw;
   }
 
@@ -145,7 +145,7 @@
     }
   }
 
-  .active {
+  .nav__link--now {
     color: $active;
   }
 }
@@ -176,4 +176,5 @@
   .nav__link--active {
     padding-left: 99px;
   }
+
 }

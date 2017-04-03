@@ -15,6 +15,15 @@
   flex-direction: column;
 }
 
+.reasons__item--height::before {
+  content: " ";
+  display: block;
+  background: url("../img/bg-triangle.svg") no-repeat;
+  position: relative;
+  width: 100%;
+  height: 40px;
+}
+
 .reasons--bg-blue .reasons__item {
   padding: 0;
 }
@@ -81,6 +90,10 @@
     flex-direction: row;
   }
 
+  .reasons__item--height::before {
+    display: none;
+  }
+
   .reasons picture {
     width: 512px;
   }
@@ -142,7 +155,7 @@
 
   .reasons picture {
     width: 800px;
-overflow: hidden;
+    overflow: hidden;
   }
 
   .reasons__image {

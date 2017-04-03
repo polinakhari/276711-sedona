@@ -1,11 +1,24 @@
 .preview {
-  background-image: url("../img/bg-back-mobile@1x.jpg");
+  background: #5b7893 url("../img/bg-back-mobile@1x.jpg");
   width: 100%;
   margin-bottom: 39px;
   height: 390px;
   background-size: cover;
 }
+.preview::after{
+  content: " ";
+  display: block;
+  background: url("../img/bg-intro-triangle-mobile.svg") no-repeat;
+  position: relative;
+  width: 100%;
+  height: 27px;
+  bottom: 43px;
 
+}
+.preview--triangle::after{
+bottom: 355px;
+
+}
 .mini .preview {
   height: 158px;
 }
@@ -50,7 +63,14 @@
     padding-top: 77px;
     padding-bottom: 101px;
   }
-
+  .preview::after{
+    background: url("../img/bg-intro-triangle-tablet.svg") no-repeat;
+    height: 57px;
+    bottom: -68px;
+  }
+  .preview--triangle::after{
+bottom: 224px;
+  }
   .preview__image--mini {
     padding-bottom: 31px;
     padding-top: 93px;
@@ -102,7 +122,14 @@
       width: 1203px;
     }
   }
+  .preview::after{
+    bottom: -83px;
+    background: url("../img/bg-intro-triangle-desktop.svg") no-repeat;
+  }
+  .preview--triangle::after{
 
+    bottom: 304px;
+  }
   .preview__triangle__mi {
     bottom: 62px;
     padding-top: 0;
