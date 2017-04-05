@@ -1,8 +1,8 @@
 .preview {
   background: #5b7893 url("../img/bg-back-mobile@1x.jpg");
   width: 100%;
-  margin-bottom: 39px;
-  height: 390px;
+  margin-bottom: 40px;
+  height: 389px;
   background-size: cover;
 }
 .preview::after{
@@ -16,11 +16,13 @@
 
 }
 .preview--triangle::after{
-bottom: 355px;
+bottom: 62px;
 
 }
 .mini .preview {
   height: 158px;
+  margin-bottom: 38px;
+
 }
 
 .preview__image {
@@ -66,10 +68,11 @@ bottom: 355px;
   .preview::after{
     background: url("../img/bg-intro-triangle-tablet.svg") no-repeat;
     height: 57px;
-    bottom: -68px;
+    bottom: 66px;
+
   }
   .preview--triangle::after{
-bottom: 224px;
+    bottom: -29px;
   }
   .preview__image--mini {
     padding-bottom: 31px;
@@ -123,12 +126,12 @@ bottom: 224px;
     }
   }
   .preview::after{
-    bottom: -83px;
+    bottom: 51px;
     background: url("../img/bg-intro-triangle-desktop.svg") no-repeat;
   }
   .preview--triangle::after{
 
-    bottom: 304px;
+    bottom: 51px;
   }
   .preview__triangle__mi {
     bottom: 62px;
@@ -139,7 +142,7 @@ bottom: 224px;
   .mini .preview {
     background-position: 0 302px;
     height: 301px;
-    margin-bottom: 81px;
+    margin-bottom: 100px;
   }
 
   .preview__image--big {

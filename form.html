@@ -14,13 +14,13 @@
 
       <div class="nav__link nav__link--active">
         <button class="nav__toggle" type="button">Меню</button>
-<a href="index.html" class=" nav__logo-icon">
-        <picture>
-          <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
-          <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
-          <img class="nav__logo" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
-        </picture>
-</a>
+        <a href="index.html" class=" nav__logo-icon">
+          <picture>
+            <source media="(min-width: 768px) and (max-width: 1199px)" srcset="img/logo-sedona-tablet.svg">
+            <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+            <img class="nav__logo" src="img/logo-sedona-mobile.svg" srcset="img/logo-sedona-mobile.svg" alt="Седона">
+          </picture>
+        </a>
       </div>
       <a href="index.html" class="nav__link  nav__link--close">Главная</a>
       <a href="photo.html" class="nav__link">Фото и видео</a>
@@ -30,7 +30,7 @@
   </header>
   <main class="mini">
     <div class="preview preview--triangle">
-      <img src="img/text-sedona.svg"  class="preview__image  preview__image--mini" alt="sedona-text">
+      <img src="img/text-sedona.svg" class="preview__image  preview__image--mini" alt="sedona-text">
 
     </div>
 
@@ -44,33 +44,31 @@
       <form class="review" method="post" action="https://echo.htmlacademy.ru">
         <div class="review-part">
           <h2 class="review-part__title">Представьтесь:</h2>
-          <div class="review-part__container review-part__container--size">
-            <label for="men" class="review-part__label">Имя*:</label>
-            <input type="text" class="review-part__input" id="men" name="name" placeholder="Петр">
-          </div>
-          <div class="review-part__container review-part__container--size">
-            <label for="sur" class="review-part__label">Фамилия*:</label>
-            <input type="text" class="review-part__input" id="sur" name="sur" placeholder="Иванов">
-          </div>
-          <div class="review-part__container review-part__container--size">
-            <label for="patronymic" class="review-part__label">Отчество:</label>
-            <input type="text" class="review-part__input" id="patronymic" name="patronymic" placeholder="Александрович">
-          </div>
+          <label for="men" class="review-part__label">Имя*:
+              <input type="text" class="review-part__input" id="men" name="name" placeholder="Петр">
+            </label>
+
+          <label for="sur" class="review-part__label">Фамилия*:
+              <input type="text" class="review-part__input" id="sur" name="sur" placeholder="Иванов">
+            </label>
+
+          <label for="patronymic" class="review-part__label">Отчество:
+              <input type="text" class="review-part__input" id="patronymic" name="patronymic" placeholder="Александрович">
+            </label>
+
         </div>
         <div class="review-part">
           <h2 class="review-part__title">Контактная информация:</h2>
 
-          <label for="phone-number" class="review-part__label review-part__label--phone"><span class="dis">Контактный</span> телефон*:</label>
-          <div class="review-part__container  review-part__container--padd">
+          <label for="phone-number" class="review-part__label  review-part__label--icon review-part__label--phone"> <span class="dis"> Контактный </span> телефон*:
+</label>
             <input type="text" class="review-part__input review-part__input--padd" id="phone-number" name="phone-number" placeholder="Введите телефон" pattern="7-[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-            <span class="review-part__icon  review-part__icon--phone"></span>
-          </div>
+
           <span class="review-part__error-message">Ошибка, перепроверьте номер</span>
-          <label for="email" class="review-part__label  review-part__label--email">Электоронная почта*:</label>
-          <div class="review-part__container  review-part__container--email">
+          <label for="email" class="review-part__label  review-part__label--email review-part__label--icon">Электоронная почта*:
+</label>
             <input type="text" class="review-part__input  review-part__input--email" id="email" name="email" placeholder="Введите e-mail">
-            <span class="review-part__icon  review-part__icon--email"></span>
-          </div>
+
         </div>
         <div class="review-part ">
           <h2 class="review-part__title">Ваше Общее впечатление:</h2>

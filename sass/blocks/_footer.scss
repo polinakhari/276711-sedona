@@ -12,19 +12,23 @@
   .footer {
     display: flex;
     padding-bottom: 30px;
+justify-content: space-around;
   }
 
   .footer__hashtag {
-    margin-top: 14px;
-    margin-left: 16px;
+
   }
 }
 @media (min-width:1200px) {
   .footer.wrapper {
-    padding: 4px 37px 35px;
+    padding: 4px 51px 35px 131px;
+  }
+  .footer {
+
+  justify-content: space-between;
   }
 
   .footer__hashtag {
-    margin-left: 93px;
+width: 150px;
   }
 }

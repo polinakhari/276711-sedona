@@ -8,7 +8,7 @@
   @include font-title(1.8rem,4rem);
   color: $primary-color;
   text-decoration: none;
-  padding: 7px 0;
+  padding: 8px 0;
   box-shadow: 0 1px 0 0 rgba(1, 1, 1, 0.2);
 }
 
@@ -19,8 +19,13 @@
   position: relative;
   height: 56px;
   box-shadow: none;
+
 }
 
+.nav__link:nth-child(5){
+
+ box-shadow: 0px -7px 4px -3px rgba(91, 120, 147, 0.2) inset;
+}
 .nav__toggle {
   display: block;
   font-size: 0;
@@ -47,7 +52,7 @@
     position: absolute;
     background-image: url("../img/icon-menu.svg");
     top: 16px;
-    right: 20px;
+    right: 18px;
     width: 23px;
     height: 22px;
     z-index: 2;
@@ -59,7 +64,7 @@
 
   .nav--active .nav__toggle::after {
     background-image: url("../img/icon-cross.svg");
-    top: -200px;
+    top: -208px;
   }
 
   .nav--closed .nav__link:not(.nav__link--active) {
@@ -84,7 +89,10 @@
   .nav__link--activate {
     color: #766357;
   }
+  .nav__link:nth-child(5){
 
+   box-shadow:none;
+  }
   .nav__link:hover {
     color: $accent-color;
   }
@@ -104,33 +112,32 @@
   .nav {
     flex-direction: row;
     background-color: $primary-color;
+justify-content: space-around;
   }
-
+  .nav__link:not(.nav__link--active){
+      padding-top: 14px;
+  }
   .nav__link:nth-child(4) {
     order: 2;
-    padding-left: 54px;
-    padding-top: 14px;
+
   }
 
   .nav__link:nth-child(3) {
     order: 0;
-    padding-left: 76px;
-    padding-top: 14px;
+
   }
 
   .nav__link:nth-child(2) {
-    padding-left: 50px;
-    padding-top: 14px;
+    width: 108px;
   }
 
   .nav__link:nth-child(5) {
-    padding-left: 50px;
-    padding-top: 14px;
+
     order: 4;
   }
 
   .nav__link--active {
-    padding-left: 53px;
+
   }
 
   .nav__link {
@@ -150,31 +157,40 @@
   }
 }
 @media (min-width:1200px) {
+.nav{
+justify-content: space-between;
+}
+.nav__link:not(.nav__link--active){
+    padding-top: 14px;
+}
   .nav__link:nth-child(4) {
     order: 2;
-    padding-left: 97px;
-    padding-top: 14px;
+    padding-left: 87px;
+
+
   }
 
   .nav__link:nth-child(3) {
     order: 0;
-    padding-left: 163px;
-    padding-top: 14px;
+    padding-left: 127px;
+
+
   }
 
   .nav__link:nth-child(2) {
-    padding-left: 90px;
-    padding-top: 14px;
+    padding-left: 65px;
+
   }
 
   .nav__link:nth-child(5) {
-    padding-left: 138px;
-    padding-top: 14px;
+    padding-left: 127px;
+padding-right: 73px;
+
     order: 4;
   }
 
   .nav__link--active {
-    padding-left: 99px;
+    padding-left: 88px;
   }
 
 }
