@@ -34,23 +34,43 @@
 }
 @media (min-width:768px) {
   .btn {
-
     margin-bottom: 92px;
+  }
+
+  .btn--form:active,
+  .btn--form:hover {
+    background-color: $primary-color;
   }
 
   .btn__review {
     padding: 0 77px 0 66px;
+    margin-left: 15px;
   }
 
-
+  .btn--form {
+    margin-bottom: 87px;
+  }
 }
 @media (min-width:1200px) {
-
+  .btn {
+    margin-left: 55px;
+    margin-bottom: 99px;
+    padding: 0;
+  }
 
   .offer .btn--ind {
     padding-left: 0;
     margin-left: 0;
     padding-bottom: 0;
     margin-bottom: 68px;
+  }
+
+  .btn__review {
+    padding: 0 149px 0 146px;
+    margin-left: 0;
+  }
+
+  .btn--form {
+    margin-bottom: 88px;
   }
 }

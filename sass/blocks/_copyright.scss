@@ -1,7 +1,6 @@
 .copyright {
-      padding-top: 61px;
+  padding-top: 61px;
   padding-bottom: 35px;
-
 }
 
 .copyright__text {
@@ -19,13 +18,12 @@
 
 .copyright__image:hover {
   fill: #81b3d2;
-    fill: #b2b2b2;
+  fill: #b2b2b2;
 }
+
 .copyright__image:active {
-
-    fill: #b2b2b2;
+  fill: #b2b2b2;
 }
-
 @media (min-width:768px) {
   .copyright {
     padding-top: 0;
@@ -34,16 +32,12 @@
   }
 }
 @media (min-width:768px) {
-  .copyright__text {
-
-  }
+  .copyright__text {}
 }
 @media (min-width:1200px) {
   .copyright__text {
-width: 100px;
+    width: 100px;
   }
 
-  .copyright__text--form {
-
-  }
+  .copyright__text--form {}
 }

@@ -8,9 +8,11 @@
 .reasons picture {
   width: 320px;
 }
-.reasons__visible-768{
-display: none;
+
+.reasons__visible-768 {
+  display: none;
 }
+
 .reasons__item {
   box-sizing: border-box;
   display: flex;
@@ -56,7 +58,7 @@ display: none;
 }
 
 .reasons__description {
-        margin-bottom: 29px;
+  margin-bottom: 29px;
   padding: 0 11px;
 }
 
@@ -79,22 +81,20 @@ display: none;
 }
 
 .reasons__description--bg-blue {
-      margin-bottom: 40px;
+  margin-bottom: 40px;
   padding: 0 6px;
 }
 
 .reasons__triangle {
   top: -1px;
 }
-.reasons__text--line{
 
-border-top: 1px solid #dbdbdb;
-
-width: 240px;
-
+.reasons__text--line {
+  border-top: 1px solid #dbdbdb;
+  width: 240px;
 }
-.reasons__description--last{
-  margin-bottom: 28px;
+
+.reasons__description--last {
   margin: 14px -9px 27px;
 }
 @media (min-width:768px) {
@@ -102,12 +102,15 @@ width: 240px;
     display: flex;
     flex-direction: row;
   }
-.reasons__hidden-768{
-display: none;
-}
-.reasons__visible-768{
-display: inline-block;
-}
+
+  .reasons__hidden-768 {
+    display: none;
+  }
+
+  .reasons__visible-768 {
+    display: inline-block;
+  }
+
   .reasons__item--height::before {
     display: none;
   }
@@ -134,9 +137,11 @@ display: inline-block;
   .reasons__title--bg-blue {
     padding: 45px 27px 9px;
   }
-.reasons__description--first{
-margin: 22px -6px 28px;
-}
+
+  .reasons__description--first {
+    margin: 22px -6px 28px;
+  }
+
   .reasons__description--bg-blue {
     margin-top: 24px;
     margin-bottom: 42px;
@@ -162,12 +167,13 @@ margin: 22px -6px 28px;
     padding: 45px 11px 9px;
     font-size: 2rem;
   }
-.reasons__title--first{
-padding-top: 45px;
-}
+
+  .reasons__title--first {
+    padding-top: 45px;
+  }
+
   .reasons__description {
     margin-bottom: 42px;
-
     margin-top: 22px;
   }
 }
@@ -179,7 +185,7 @@ padding-top: 45px;
   .reasons picture {
     width: 800px;
     overflow: hidden;
-height: 256px;
+    height: 256px;
   }
 
   .reasons__image {
@@ -201,17 +207,19 @@ height: 256px;
 
   .reasons__description--bg-blue {
     margin-bottom: 58px;
-    padding: 0 ;
+    padding: 0;
   }
   @-moz-document url-prefix() {
     .reasons__image {
       height: 256px;
     }
   }
-.reasons__description--padd{
-padding: 0 20px;
-}
-.reasons__description{
+
+  .reasons__description--padd {
+    padding: 0 20px;
+  }
+
+  .reasons__description {
     margin-bottom: 58px;
-}
+  }
 }

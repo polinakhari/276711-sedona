@@ -1,6 +1,6 @@
 .preview-text__main-title {
   @include font-title(1.9rem,2.6rem);
-      padding-bottom: 17px;
+  padding-bottom: 17px;
 }
 
 .preview-text__main-description {
@@ -12,11 +12,13 @@
 .preview-text__main-title--form {
   padding: 0 10px 11px;
 }
-.preview-text__main-title--padd{
-margin-bottom: 13px;
+
+.preview-text__main-title--padd {
+  margin-bottom: 9px;
 }
+
 .preview-text__main-description--form {
-      padding: 0 0 14px;
+  padding: 0 0 14px;
 }
 
 .preview-text__main-description--padd {
@@ -29,18 +31,19 @@ margin-bottom: 13px;
   border-top: 1px solid #dbdbdb;
   z-index: 4;
   width: 100%;
-display: block;
-margin-bottom: 20px;
-
+  display: block;
+  margin-bottom: 20px;
 }
 @media (min-width:768px) {
   .preview-text__main-title {
     padding: 30px 100px 15px;
     font-size: 2rem;
   }
-.preview-text--line::after{
-display: none;
-}
+
+  .preview-text--line::after {
+    display: none;
+  }
+
   .preview-text__main-title {
     font-size: 3rem;
     line-height: 3rem;
@@ -59,19 +62,22 @@ display: none;
   .preview-text__main-description--padd {
     padding: 0 95px 27px;
   }
-.preview-text__main-description--form {
-  padding: 0 116px 49px;
-}
+
+  .preview-text__main-description--form {
+    padding: 0 116px 49px;
+  }
+
   .preview-text__main-title--padd {
-    padding: 33px 100px 18px;
+    padding: 33px 100px 23px;
   }
 
   .reasons__text--line::after {
     display: none;
   }
-  .preview-text__main-title--form{
+
+  .preview-text__main-title--form {
     padding-top: 35px;
-        padding-bottom: 9px;
+    padding-bottom: 9px;
   }
 }
 @media (min-width:1200px) {
@@ -81,7 +87,7 @@ display: none;
   }
 
   .preview-text__main-title {
-        padding: 8px 217px 15px;
+    padding: 8px 217px 22px;
   }
 
   .preview-text__main-title--mini {
@@ -96,12 +102,11 @@ display: none;
     padding: 0 290px 27px;
   }
 
-
   .preview-text__main-description--form {
-    padding-bottom: 19px;
+    padding-bottom: 35px;
   }
 
   .preview-text__main-title--form {
-    padding: 30px 100px 8px;
+    padding: 9px 100px 8px;
   }
 }

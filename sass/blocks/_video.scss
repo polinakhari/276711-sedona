@@ -7,7 +7,7 @@
 
 .video__title {
   @include font-title();
-      padding: 12px 0 12px;
+  padding: 12px 0;
 }
 
 .video__description {
@@ -39,12 +39,11 @@
   margin-right: 22px;
   z-index: 5;
   display: inline-block;
-vertical-align: top;
+  vertical-align: top;
   height: 21px;
   width: 21px;
   fill: #5c6870;
   stroke: #5c6870;
-
 }
 
 .video__icon:active {
@@ -131,7 +130,7 @@ vertical-align: top;
 
   .video__player.wrapper {
     padding: 0;
-        margin-bottom: -30px;
+    margin-bottom: -30px;
   }
 
   .video__item:first-child {
@@ -155,7 +154,7 @@ vertical-align: top;
     width: 648px;
     height: 94px;
     position: relative;
-        top: -32px;
+    top: -32px;
   }
 
   .video__bar {

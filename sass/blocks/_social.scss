@@ -9,7 +9,8 @@
   position: relative;
   top: 35px;
   vertical-align: top;
-    margin-bottom: 4px;
+  margin-bottom: 4px;
+
   &:before {
     content: "";
     position: absolute;
@@ -52,18 +53,17 @@
 @media (min-width:768px) {
   .social {
     width: 313px;
-        padding-top: 6px;
+    padding-top: 6px;
   }
 
   .social__btn {
     top: 4px;
     bottom: 4px;
-left: -5px;
+    left: -5px;
   }
 }
 @media (min-width:1200px) {
   .social__btn {
     left: -48px;
-
   }
 }

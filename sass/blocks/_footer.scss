@@ -12,23 +12,30 @@
   .footer {
     display: flex;
     padding-bottom: 30px;
-justify-content: space-around;
+    justify-content: space-around;
   }
 
-  .footer__hashtag {
-
-  }
+  .footer__hashtag {}
 }
 @media (min-width:1200px) {
   .footer.wrapper {
     padding: 4px 51px 35px 131px;
   }
-  .footer {
 
-  justify-content: space-between;
+  .footer--form.wrapper {
+    padding: 4px 126px 35px 131px;
+  }
+
+  .footer {
+    justify-content: space-between;
   }
 
   .footer__hashtag {
-width: 150px;
+    width: 150px;
+    text-align: left;
+  }
+
+  .footer__hashtag--form {
+    width: 219px;
   }
 }

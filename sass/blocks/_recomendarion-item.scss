@@ -51,8 +51,6 @@
   margin: 0;
 }
 @media (min-width:768px) {
-
-
   .recomendarion-item {
     width: 33.3333%;
   }
@@ -108,8 +106,6 @@
   }
 }
 @media (min-width:1200px) {
-
-
   .recomendarion-item {
     width: 33.3333%;
 
@@ -129,7 +125,8 @@
       padding: 0 42px;
     }
   }
+
   .recomendarion-item__description {
-      padding-top: 8px;
+    padding-top: 8px;
   }
 }
