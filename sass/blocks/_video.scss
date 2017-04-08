@@ -42,18 +42,15 @@
   vertical-align: top;
   height: 21px;
   width: 21px;
-  fill: #5c6870;
-  stroke: #5c6870;
-}
-
-.video__icon:active {
-  fill: #c1c1c1;
-  stroke: #c1c1c1;
+  fill: $primary-color;
 }
 
 .video__icon:hover {
   fill: #333333;
-  stroke: #333333;
+}
+
+.video__icon:active {
+  fill: rgba(193,193,193,.3);
 }
 
 .video__bar {

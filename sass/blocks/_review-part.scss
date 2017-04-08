@@ -278,8 +278,8 @@ input:-moz-placeholder {
   border-radius: 50%;
   background-color: #333333;
   left: 19px;
-  display: block;
   top: 18px;
+  display: block;
 }
 
 .review-part:nth-child(4) .review-part__input:checked + .review-part__label:after {
@@ -500,6 +500,11 @@ input:-moz-placeholder {
     &::before {
       background-color: #f2f2f2;
     }
+    &::after{
+    left: 19px;
+    display: block;
+    top: 22px;
+    }
   }
 
   .review-part:nth-child(4) .review-part__label:nth-of-type(2) {
@@ -573,8 +578,8 @@ input:-moz-placeholder {
   }
 
   .review-part__input:checked + .review-part__label:after {
-    left: 15px;
-    top: 25px;
+    left: 19px;
+    top: 18px;
   }
 
   .review-part:nth-child(4) .review-part__input:checked + .review-part__label:after {

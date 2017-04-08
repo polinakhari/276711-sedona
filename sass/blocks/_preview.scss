@@ -31,7 +31,7 @@
   display: block;
   width: 72%;
   padding-top: 53px;
-  padding-bottom: 101px;
+  padding-bottom: 102px;
   margin: 0 auto;
 }
 
@@ -63,8 +63,9 @@
 @media (min-width:768px) {
   .preview__image {
     width: 458px;
-    padding-top: 77px;
-    padding-bottom: 101px;
+    padding: 0;
+    height: 100%;
+    margin-bottom: 9px;
   }
 
   .preview::after {
@@ -78,8 +79,9 @@
   }
 
   .preview__image--mini {
-    padding-bottom: 31px;
-    padding-top: 93px;
+    padding: 0;
+    height: 100%;
+    margin-bottom: -86px;
   }
 
   .preview {
@@ -156,13 +158,15 @@
 
   .preview__image {
     width: 458px;
-    padding-top: 79px;
+    padding: 0;
+    margin-bottom: -6px;
+    height: 100%;
   }
 
   .preview__image--mini {
-    padding-bottom: 114px;
-    padding-top: 101px;
-    bottom: 16px;
+    margin-bottom: -6px;
+    padding: 0;
+    height: 100%;
   }
 }
 @media (min-width: 1200px) and (min-resolution: 144dpi), (min-width: 1200px) and (min-resolution: 1.5dppx) {
