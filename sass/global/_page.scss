@@ -1,6 +1,7 @@
 .main-wrapper {
   width: 320px;
   margin: 0 auto;
+  background-color: $primary-color;
 }
 
 .wrapper {
@@ -19,10 +20,14 @@
 @media (min-width: 1200px) {
   .main-wrapper {
     width: 1200px;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
   }
 
   .wrapper {
     padding: 0 65px;
+  }
+  body{
+    background: #f2f2f2;
   }
 }
 

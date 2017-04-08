@@ -1,5 +1,6 @@
 .footer {
   @include font-title();
+  background-color: $primary-color;
 }
 
 .footer__hashtag {

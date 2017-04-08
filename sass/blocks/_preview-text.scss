@@ -1,3 +1,6 @@
+.preview-text{
+  background-color: $primary-color;
+}
 .preview-text__main-title {
   @include font-title(1.9rem,2.6rem);
   padding-bottom: 17px;

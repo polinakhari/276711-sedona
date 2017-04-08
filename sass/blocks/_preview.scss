@@ -4,6 +4,7 @@
   margin-bottom: 40px;
   height: 389px;
   background-size: cover;
+  background-color: $primary-color;
 }
 
 .preview::after {
@@ -146,7 +147,7 @@
   .mini .preview {
     background-position: 0 302px;
     height: 301px;
-    margin-bottom: 100px;
+    margin-bottom: 102px;
   }
 
   .preview__image--big {

@@ -1,6 +1,7 @@
 .recomendarion-item {
   box-sizing: border-box;
   position: relative;
+  color: $primary-color;
 
   &:before {
     content: " ";

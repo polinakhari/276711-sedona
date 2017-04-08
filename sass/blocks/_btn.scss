@@ -1,8 +1,9 @@
 .btn {
-  height: 58px;
+  min-height: 58px;
   margin-bottom: 0;
   display: flex;
   justify-content: center;
+  color: $primary-color;
 }
 
 .btn--form {
