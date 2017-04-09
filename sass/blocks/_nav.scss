@@ -160,6 +160,12 @@
     flex-wrap: wrap;
   }
 
+  picture .nav__logo,
+  picture .nav__logo-icon {
+    width: 186px;
+    height: 96px;
+  }
+
   .nav__link:not(.nav__link--active) {
     padding-top: 15px;
     min-width: 150px;

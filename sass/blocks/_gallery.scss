@@ -119,6 +119,16 @@
     padding-bottom: 13px;
     padding-top: 9px;
   }
+
+  .gallery__image .gallry__picture {
+    width: 324px;
+    height: 267px;
+  }
+
+  .gallery__image .gallry__picture--first {
+    width: 648px;
+    height: 400px;
+  }
 }
 @media (min-width:1200px) {
   .gallery.wrapper {
@@ -175,5 +185,15 @@
   .gallry__like {
     padding-right: 31px;
     padding-top: 28px;
+  }
+
+  .gallery__image .gallry__picture {
+    width: 400px;
+    height: 267px;
+  }
+
+  .gallery__image .gallry__picture--first {
+    width: 100%;
+    height: 400px;
   }
 }
