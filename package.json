@@ -29,8 +29,8 @@
     "clean": "gulp clean",
     "copy": "gulp copy",
     "imagemin": "gulp images", 
-    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false;,
-    "heroku-postbuild": "export NPM_CONFIG_PRODUCTION=true; export NODE_ENV=production;"    
+    "heroku-prebuild": "export NPM_CONFIG_PRODUCTION=false;"
+    
   },
   "editorconfig-cli": [
     "*.html",
