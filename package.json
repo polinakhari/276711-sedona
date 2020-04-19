@@ -28,7 +28,8 @@
     "start": "npm run build && gulp serve",
     "clean": "gulp clean",
     "copy": "gulp copy",
-    "imagemin": "gulp images"
+    "imagemin": "gulp images",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run build && gulp serve"
     
   },
   "editorconfig-cli": [
